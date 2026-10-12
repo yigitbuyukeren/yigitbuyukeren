@@ -21,15 +21,15 @@
 
 ## 🌿 Şu an üzerinde çalıştığım proje
 
-**[Aile Cüzdanı](https://github.com/YgtLab/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz,
+**[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz,
 ortak bütçe uygulaması. Taksit takibi, birikim hedefleri, raporlar ve TÜİK enflasyonu içerir.
 *Geliştirme aşamasında; ekran görüntüleri ve ayrıntılar için projeye göz at.*
 
 <p align="center">
-  <a href="https://github.com/YgtLab/aile-cuzdani-showcase">
-    <img src="https://raw.githubusercontent.com/YgtLab/aile-cuzdani-showcase/main/screens/01-ozet.jpg" width="170" alt="Özet">
-    <img src="https://raw.githubusercontent.com/YgtLab/aile-cuzdani-showcase/main/screens/02-raporlar.jpg" width="170" alt="Raporlar">
-    <img src="https://raw.githubusercontent.com/YgtLab/aile-cuzdani-showcase/main/screens/03-hedefler.jpg" width="170" alt="Hedefler">
+  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase">
+    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/01-ozet.jpg" width="170" alt="Özet">
+    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/02-raporlar.jpg" width="170" alt="Raporlar">
+    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/03-hedefler.jpg" width="170" alt="Hedefler">
   </a>
 </p>
 
