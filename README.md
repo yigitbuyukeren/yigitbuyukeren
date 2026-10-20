@@ -30,17 +30,34 @@
 
 ## 🌿 Projeler
 
-**[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz,
-ortak bütçe uygulaması. Taksit takibi, abonelikler, birikim hedefleri ve raporlar içerir.
-*Geliştirme aşamasında, kaynak kod kapalı; ekran görüntüleri ve ayrıntılar için tanıtım sayfasına göz at.*
+### 🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) · ücretsiz, ortak bütçe
+
+Türk aileleri için ortak bütçe uygulaması: maaşı bir kez ekle, gelir, gider, taksit, abonelik, hesaplar,
+borçlar ve birikim hedefleri tek ekranda, ailenin tüm üyeleriyle birlikte görünsün. Arka ucu Türkiye'deki bir
+sunucuda canlı çalışıyor. React Native + PocketBase, kaynak kod kapalı.
 
 <p align="center">
-  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/01-ozet.jpg" width="170" alt="Özet">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/02-raporlar.jpg" width="170" alt="Raporlar">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/03-hedefler.jpg" width="170" alt="Hedefler">
-  </a>
+  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/01-ozet.jpg" width="190" alt="Özet"></a>&nbsp;&nbsp;
+  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/02-raporlar.jpg" width="190" alt="Raporlar"></a>&nbsp;&nbsp;
+  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/06-hesaplar.jpg" width="190" alt="Hesaplar"></a>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/durum-geli%C5%9Ftirme%20a%C5%9Famas%C4%B1nda-F0997F?style=flat-square" alt="Durum">
+  <img src="https://img.shields.io/badge/birim%20testi-206-7F52FF?style=flat-square" alt="206 birim testi">
+  <img src="https://img.shields.io/badge/React%20Native-Expo-7F52FF?style=flat-square" alt="React Native, Expo">
+  <img src="https://img.shields.io/badge/PocketBase-sunucu-7F52FF?style=flat-square" alt="PocketBase">
+  <img src="https://img.shields.io/badge/kaynak-kapal%C4%B1-lightgrey?style=flat-square" alt="Kaynak kapalı">
+</p>
+
+| | |
+|---|---|
+| 👨‍👩‍👧 **Ortak bütçe** | Davet koduyla 5 kişiye kadar, kim ne harcadı görünür, çocuk rolü |
+| 💳 **Taksit ve abonelik** | İlerleme takvimden hesaplanır, yaklaşan ödemeler ve gecikme uyarısı |
+| 🏦 **Hesaplar ve borçlar** | Nakit, banka, kredi kartı (son ödeme günü), borç ve alacak, harcama bölme |
+| 🎯 **Birikim ve raporlar** | Ortak hedefler, altın ve döviz, 3 / 6 / 12 aylık trend, PDF rapor |
+
+[Tanıtım sayfası](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) · [yigitbuyukeren.com/aile-cuzdani](https://yigitbuyukeren.com/aile-cuzdani/)
 
 ### 🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck) · açık kaynak
 
@@ -50,10 +67,8 @@ hava uyarısı, müzik, uygulama içi telefon, Türkçe sesli asistan ve kaza al
 sunucu yok. Kotlin + Jetpack Compose, Apache 2.0, katkılara açık.
 
 <p align="center">
-  <a href="https://github.com/yigitbuyukeren/ridedeck">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/dashboard.png" width="400" alt="RideDeck dashboard">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/navigation.png" width="400" alt="RideDeck navigasyon">
-  </a>
+  <a href="https://github.com/yigitbuyukeren/ridedeck"><img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/dashboard.png" width="400" alt="RideDeck dashboard"></a>&nbsp;&nbsp;
+  <a href="https://github.com/yigitbuyukeren/ridedeck"><img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/navigation.png" width="400" alt="RideDeck navigasyon"></a>
 </p>
 
 <p align="center">
