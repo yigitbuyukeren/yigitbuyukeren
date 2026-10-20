@@ -5,7 +5,10 @@
 <h1 align="center">Merhaba, ben Yiğit 👋</h1>
 
 <p align="center">
-  <b>Mobil ve web uygulamaları geliştiriyorum.</b><br>
+  <a href="https://github.com/yigitbuyukeren">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=7F52FF&center=true&vCenter=true&width=560&lines=Mobil+ve+web+uygulamalar%C4%B1+geli%C5%9Ftiriyorum;React+Native+%C2%B7+TypeScript+%C2%B7+Kotlin;Motosiklet+i%C3%A7in+a%C3%A7%C4%B1k+kaynak+panel+yap%C4%B1yorum" alt="Mobil ve web uygulamaları geliştiriyorum">
+  </a>
+  <br>
   <sub>I build mobile and web apps — React Native, TypeScript, Kotlin and Python.</sub>
 </p>
 
@@ -52,7 +55,29 @@ telefon ve kaza algılamalı SOS. Kotlin + Jetpack Compose, Apache 2.0, katkıla
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/yigitbuyukeren/carplay/releases/latest"><img src="https://img.shields.io/github/v/release/yigitbuyukeren/carplay?style=flat-square&color=7F52FF" alt="Sürüm"></a>
+  <a href="https://github.com/yigitbuyukeren/carplay/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yigitbuyukeren/carplay?style=flat-square" alt="Lisans"></a>
+  <img src="https://img.shields.io/github/languages/top/yigitbuyukeren/carplay?style=flat-square&color=7F52FF" alt="Dil">
+  <img src="https://img.shields.io/github/last-commit/yigitbuyukeren/carplay?style=flat-square" alt="Son commit">
+  <img src="https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-brightgreen?style=flat-square" alt="PR'lar açık">
+</p>
+
+| | |
+|---|---|
+| 🧭 **Navigasyon** | Sesli, OpenStreetMap tabanlı, motosiklet rotası ve benzinlik durakları |
+| 🎙️ **Sesli asistan** | Türkçe komutlar, kask mikrofonu, aramadan önce onay |
+| 🆘 **Güvenlik** | Kaza algılama ve SOS, hava ve buz uyarısı |
+| 🎵 **Müzik ve telefon** | Eldivenle kullanılabilir büyük dokunma alanları |
+
 [Kaynak kod](https://github.com/yigitbuyukeren/carplay) · [Son sürümü indir](https://github.com/yigitbuyukeren/carplay/releases/latest)
+
+## 🔭 Şu an
+
+- 🏍️ **MotoDash**: motosiklet, araba ve bisiklet profilleri, Türkçe sesli asistan (300 cümlelik test derlemesiyle) ve uygulama içi telefon ekranı geldi. Sırada gerçek cihaz denemeleri ve yeni sürüm
+- 🌿 **Aile Cüzdanı**: 176 birim testiyle yayına hazırlanıyor
+- 🌐 **[yigitbuyukeren.com](https://yigitbuyukeren.com)**: kişisel site ve proje sayfaları, Türkçe ve İngilizce
+- 💬 Katkı ve fikirlere açığım: [issue aç](https://github.com/yigitbuyukeren/carplay/issues) ya da [mail at](mailto:mail@yigitbuyukeren.com)
 
 ## 🛠️ Nasıl çalışıyorum
 
@@ -64,5 +89,9 @@ telefon ve kaza algılamalı SOS. Kotlin + Jetpack Compose, Apache 2.0, katkıla
 `TypeScript` · `React Native` · `Expo` · `PocketBase` · `Kotlin` · `Jetpack Compose` · `MapLibre` · `Python` · `Vitest`
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F52FF&height=90&section=footer" alt="">
+</p>
 
 <sub>🇬🇧 **In English:** I'm Yiğit, a developer building mobile and web apps with React Native, TypeScript, Kotlin and Python. My projects are *Aile Cüzdanı*, a free shared budget app for Turkish families (in development), and *MotoDash*, an open-source Android riding dashboard for motorcyclists (Kotlin, Jetpack Compose).</sub>
