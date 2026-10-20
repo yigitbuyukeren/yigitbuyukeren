@@ -42,42 +42,43 @@ ortak bütçe uygulaması. Taksit takibi, abonelikler, birikim hedefleri ve rapo
   </a>
 </p>
 
-### 🏍️ [MotoDash](https://github.com/yigitbuyukeren/carplay) · açık kaynak
+### 🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck) · açık kaynak
 
-Motosiklet için CarPlay tarzı Android sürüş paneli: telefonu gidonda yatay ekran dashboard'a
-çevirir. GPS hız göstergesi, sesli navigasyon (OpenStreetMap), benzinlik, hava uyarısı, müzik,
-telefon ve kaza algılamalı SOS. Kotlin + Jetpack Compose, Apache 2.0, katkılara açık.
+Motosiklet, araba ve bisiklet için CarPlay tarzı Android sürüş paneli: telefonu gidonda yatay ekran
+dashboard'a çevirir. GPS hız göstergesi, sesli navigasyon (OpenStreetMap), benzinlik ve şarj durakları,
+hava uyarısı, müzik, uygulama içi telefon, Türkçe sesli asistan ve kaza algılamalı SOS. Hesap yok,
+sunucu yok. Kotlin + Jetpack Compose, Apache 2.0, katkılara açık.
 
 <p align="center">
-  <a href="https://github.com/yigitbuyukeren/carplay">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/carplay/main/docs/screenshots/dashboard.png" width="400" alt="MotoDash dashboard">
-    <img src="https://raw.githubusercontent.com/yigitbuyukeren/carplay/main/docs/screenshots/navigation.png" width="400" alt="MotoDash navigasyon">
+  <a href="https://github.com/yigitbuyukeren/ridedeck">
+    <img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/dashboard.png" width="400" alt="RideDeck dashboard">
+    <img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/navigation.png" width="400" alt="RideDeck navigasyon">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/yigitbuyukeren/carplay/releases/latest"><img src="https://img.shields.io/github/v/release/yigitbuyukeren/carplay?style=flat-square&color=7F52FF" alt="Sürüm"></a>
-  <a href="https://github.com/yigitbuyukeren/carplay/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yigitbuyukeren/carplay?style=flat-square" alt="Lisans"></a>
-  <img src="https://img.shields.io/github/languages/top/yigitbuyukeren/carplay?style=flat-square&color=7F52FF" alt="Dil">
-  <img src="https://img.shields.io/github/last-commit/yigitbuyukeren/carplay?style=flat-square" alt="Son commit">
+  <a href="https://github.com/yigitbuyukeren/ridedeck/releases/latest"><img src="https://img.shields.io/github/v/release/yigitbuyukeren/ridedeck?style=flat-square&color=7F52FF" alt="Sürüm"></a>
+  <a href="https://github.com/yigitbuyukeren/ridedeck/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yigitbuyukeren/ridedeck?style=flat-square" alt="Lisans"></a>
+  <img src="https://img.shields.io/github/languages/top/yigitbuyukeren/ridedeck?style=flat-square&color=7F52FF" alt="Dil">
+  <img src="https://img.shields.io/github/last-commit/yigitbuyukeren/ridedeck?style=flat-square" alt="Son commit">
   <img src="https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-brightgreen?style=flat-square" alt="PR'lar açık">
 </p>
 
 | | |
 |---|---|
-| 🧭 **Navigasyon** | Sesli, OpenStreetMap tabanlı, motosiklet rotası ve benzinlik durakları |
-| 🎙️ **Sesli asistan** | Türkçe komutlar, kask mikrofonu, aramadan önce onay |
+| 🧭 **Navigasyon** | Sesli, OpenStreetMap tabanlı; motosiklet, araba ve bisiklet rotası, benzinlik ve şarj durakları |
+| 🎙️ **Sesli asistan** | Türkçe komutlar (yaklaşık 130 kalıp), kask mikrofonu, aramadan ve mesajdan önce onay |
 | 🆘 **Güvenlik** | Kaza algılama ve SOS, hava ve buz uyarısı |
 | 🎵 **Müzik ve telefon** | Eldivenle kullanılabilir büyük dokunma alanları |
 
-[Kaynak kod](https://github.com/yigitbuyukeren/carplay) · [Son sürümü indir](https://github.com/yigitbuyukeren/carplay/releases/latest)
+[Kaynak kod](https://github.com/yigitbuyukeren/ridedeck) · [Son sürümü indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
 
 ## 🔭 Şu an
 
-- 🏍️ **MotoDash**: motosiklet, araba ve bisiklet profilleri, Türkçe sesli asistan (300 cümlelik test derlemesiyle) ve uygulama içi telefon ekranı geldi. Sırada gerçek cihaz denemeleri ve yeni sürüm
-- 🌿 **Aile Cüzdanı**: 176 birim testiyle yayına hazırlanıyor
+- 🏍️ **RideDeck**: eski adıyla MotoDash. Motosiklet, araba ve bisiklet profilleri, Türkçe sesli asistan (300 cümlelik test derlemesiyle), uygulama içi telefon ekranı, uygulama rafı ve mil/mph desteği geldi. Sırada gerçek cihaz denemeleri ve yeni sürüm
+- 🌿 **Aile Cüzdanı**: arka ucu Türkiye'deki bir sunucuda canlı; hesaplar, borçlar, fiş ve döviz desteği eklendi, 206 birim testi ve 300'den fazla entegrasyon kontrolüyle yayına hazırlanıyor
 - 🌐 **[yigitbuyukeren.com](https://yigitbuyukeren.com)**: kişisel site ve proje sayfaları, Türkçe ve İngilizce
-- 💬 Katkı ve fikirlere açığım: [issue aç](https://github.com/yigitbuyukeren/carplay/issues) ya da [mail at](mailto:mail@yigitbuyukeren.com)
+- 💬 Katkı ve fikirlere açığım: [issue aç](https://github.com/yigitbuyukeren/ridedeck/issues) ya da [mail at](mailto:mail@yigitbuyukeren.com)
 
 ## 🛠️ Nasıl çalışıyorum
 
@@ -94,4 +95,4 @@ telefon ve kaza algılamalı SOS. Kotlin + Jetpack Compose, Apache 2.0, katkıla
   <img src="https://capsule-render.vercel.app/api?type=waving&color=7F52FF&height=90&section=footer" alt="">
 </p>
 
-<sub>🇬🇧 **In English:** I'm Yiğit, a developer building mobile and web apps with React Native, TypeScript, Kotlin and Python. My projects are *Aile Cüzdanı*, a free shared budget app for Turkish families (in development), and *MotoDash*, an open-source Android riding dashboard for motorcyclists (Kotlin, Jetpack Compose).</sub>
+<sub>🇬🇧 **In English:** I'm Yiğit, a developer building mobile and web apps with React Native, TypeScript, Kotlin and Python. My projects are *Aile Cüzdanı*, a free shared budget app for Turkish families (in development), and *RideDeck* (formerly MotoDash), an open-source Android riding dashboard for motorcycles, cars and bicycles (Kotlin, Jetpack Compose).</sub>
