@@ -28,7 +28,7 @@ if(card==='banner'){
     var sel={aile:'.feature--aile',ride:'.feature--ride',w1:'.works .work:nth-child(1)',w2:'.works .work:nth-child(2)',w3:'.works .work:nth-child(3)',w4:'.works .work:nth-child(4)'}[card];
     var el=doc.querySelector(sel);el.classList.remove('reveal');
     el.querySelectorAll('img').forEach(function(i){i.removeAttribute('loading')});
-    var pr=el.querySelector('[data-pr-state]');if(pr)pr.parentNode.innerHTML='PR #874 · <b>gerçek cihazda test edildi</b>';
+    var pr=el.querySelector('[data-pr-state]');if(pr)pr.parentNode.innerHTML='PR #874 · <b>birleştirildi</b>';
     document.body.appendChild(el);
   });
 }

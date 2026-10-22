@@ -52,7 +52,7 @@
   <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
 </p>
 
-🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/)) &nbsp;·&nbsp; 🤝 [cleanyourtv PR #874](https://github.com/Gathin23/cleanyourtv/pull/874)
+🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/)) &nbsp;·&nbsp; 🤝 [cleanyourtv katkısı (birleştirildi)](https://github.com/Gathin23/cleanyourtv/pull/874)
 
 ## 🔭 Şu an
 
