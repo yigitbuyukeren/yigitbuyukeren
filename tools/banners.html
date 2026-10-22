@@ -1,10 +1,11 @@
 <!doctype html>
 <!-- Proje README kapakları. Site klasöründe _gh/banners.html olarak sunulur; görseller _gh/img/ altına kopyalanır
      (aile-icon.png, unfollow-icon.png, dg-*.jpg, site-*.png) ya da sitenin /assets/img/ klasöründen gelir.
-     ?p=aile|ride|tvplus|unfollow|dogum|site&theme=light|dark -->
+     ?p=aile|ride|tvplus|unfollow|dogum|site&theme=light|dark, isteğe bağlı &h=640 (yükseklik) ve &flat=1 (köşesiz, repo paylaşım görseli için) -->
 <html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
 html,body{margin:0;background:var(--bg)}
-.pb{position:relative;width:1280px;height:520px;border:1px solid var(--rule);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:560px 1fr;background:var(--bg)}
+.flat .pb{border:0;border-radius:0}
+.pb{position:relative;width:1280px;height:var(--h,520px);border:1px solid var(--rule);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:560px 1fr;background:var(--bg)}
 .pb-text{padding:48px 0 44px 56px;display:flex;flex-direction:column;gap:18px;z-index:2}
 .pb-mark{display:flex;align-items:center;gap:10px;font:500 15px/1 var(--f-mono);color:var(--muted);letter-spacing:.02em}
 .pb-mark .mark-badge{width:30px;height:30px;border-radius:8px;font-size:12px}
@@ -31,12 +32,14 @@ html,body{margin:0;background:var(--bg)}
 </style></head><body><script>
 var q=new URLSearchParams(location.search),p=q.get('p');
 document.documentElement.dataset.theme=q.get('theme')||'light';
+if(q.get('h'))document.documentElement.style.setProperty('--h',q.get('h')+'px');
+if(q.get('flat'))document.documentElement.classList.add('flat');
 var dark=document.documentElement.dataset.theme==='dark';
 var P={
  aile:{url:'yigitbuyukeren.com/aile-cuzdani',icon:'<img src="/_gh/img/aile-icon.png">',name:'Aile Cüzdanı',tag:'Türk aileleri için <em>ücretsiz</em>, ortak bütçe uygulaması.',tags:['React Native','PocketBase','206 birim testi','iOS · Android'],
    bg:dark?'#1D251F':'#E5ECE2',visual:'<div class="phones"><div class="phone"><img src="/assets/img/02-raporlar.webp"></div><div class="phone"><img src="/assets/img/01-ozet.webp"></div><div class="phone"><img src="/assets/img/03-hedefler.webp"></div></div>'},
  ride:{url:'yigitbuyukeren.com/ridedeck',icon:'<img src="/assets/img/ridedeck-logo.webp">',name:'RideDeck',tag:'Telefonunu gidona tak, <em>CarPlay tarzı</em> sürüş paneline çevir.',tags:['Kotlin','Jetpack Compose','OpenStreetMap','Apache 2.0'],
-   bg:'radial-gradient(120% 90% at 70% 0%,#1A2A55 0%,#0A1020 60%)',visual:'<div class="frame" style="left:50px;top:84px;width:760px"><img src="/assets/img/rd-navigation.webp"></div>'},
+   bg:'radial-gradient(120% 90% at 70% 0%,#1A2A55 0%,#0A1020 60%)',visual:'<div class="frame" style="left:50px;top:50%;transform:translateY(-50%);width:760px"><img src="/assets/img/rd-navigation.webp"></div>'},
  tvplus:{url:'github.com/yigitbuyukeren/tvplus-4k-box-rehber',icon:'📺',iconbg:'#2A0A0A',name:'TV+ 4K Box Rehberi',tag:'Turkcell TV+ kutusunu <em>root\'suz</em> temizle, hızlandır, geri al.',tags:['ADB','Shell','Geri alınabilir','Boş RAM ×2'],
    bg:'radial-gradient(110% 100% at 40% 30%,#6A0E0E 0%,#2A0606 55%,#120303 100%)',visual:'<div class="tv"><img src="/assets/img/w-tvplus.webp"></div>'},
  unfollow:{url:'github.com/yigitbuyukeren/unfollow-radar',icon:'<img src="/_gh/img/unfollow-icon.png">',name:'Unfollow Radar',tag:'Instagram\'da seni <em>geri takip etmeyenleri</em> bul.',tags:['Konsola yapıştır','Kurulum yok','%100 yerel','MIT'],
