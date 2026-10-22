@@ -5,15 +5,20 @@
   </picture>
 </a>
 
-<p align="center">
-  <a href="https://yigitbuyukeren.com"><b>yigitbuyukeren.com</b></a> ·
-  <a href="mailto:mail@yigitbuyukeren.com">mail@yigitbuyukeren.com</a> ·
-  <a href="https://yigitbuyukeren.com/en/">English</a>
-</p>
+<div align="center">
 
-Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışıyorum. Ekrandaki arayüzü de, arkasındaki sunucuyu da, onu ayakta tutan altyapıyı da kendim kurarım ve çalıştığını testle gösteririm.
+**[🌐 yigitbuyukeren.com](https://yigitbuyukeren.com)** &nbsp;·&nbsp; **[✉️ mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)** &nbsp;·&nbsp; **[🇬🇧 English](https://yigitbuyukeren.com/en/)**
 
-## Seçili işler
+[![Site](https://img.shields.io/website?url=https%3A%2F%2Fyigitbuyukeren.com&style=flat-square&labelColor=16150F&color=E8480C&label=site&up_message=yay%C4%B1nda)](https://yigitbuyukeren.com)
+![Konum](https://img.shields.io/badge/konum-%C4%B0stanbul-E8480C?style=flat-square&labelColor=16150F)
+![Durum](https://img.shields.io/badge/durum-yeni%20projelere%20a%C3%A7%C4%B1k-E8480C?style=flat-square&labelColor=16150F)
+[![Takip](https://img.shields.io/github/followers/yigitbuyukeren?style=flat-square&labelColor=16150F&color=E8480C&label=takip%C3%A7i)](https://github.com/yigitbuyukeren?tab=followers)
+
+</div>
+
+👋 Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışıyorum. Ekrandaki arayüzü de, arkasındaki sunucuyu da, onu ayakta tutan altyapıyı da kendim kurarım ve çalıştığını testle gösteririm.
+
+## 🧭 Seçili işler
 
 <a href="https://yigitbuyukeren.com/aile-cuzdani/">
   <picture>
@@ -22,7 +27,7 @@ Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışı
   </picture>
 </a>
 
-**Aile Cüzdanı** · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/) · [Tanıtım deposu](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)
+🌿 **Aile Cüzdanı** · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/) · [Tanıtım deposu](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)
 
 <a href="https://yigitbuyukeren.com/ridedeck/">
   <picture>
@@ -31,51 +36,51 @@ Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışı
   </picture>
 </a>
 
-**RideDeck** · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/) · [Kaynak kodu](https://github.com/yigitbuyukeren/ridedeck) · [APK indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
+🏍️ **RideDeck** · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/) · [Kaynak kodu](https://github.com/yigitbuyukeren/ridedeck) · [APK indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
 
-### Diğer işler
+### 🧩 Diğer işler
 
 <p>
   <a href="https://github.com/yigitbuyukeren/tvplus-4k-box-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tvplus-dark.jpg"><img src="assets/tvplus-light.jpg" width="49%" alt="TV+ 4K Box Rehberi: Turkcell TV+ 4K Box için root'suz, geri alınabilir temizlik ve hızlandırma rehberi. Açılıştan sonra boş RAM yaklaşık 460 MB'tan 930 MB'a çıkıyor."></picture></a>
   <a href="https://github.com/yigitbuyukeren/unfollow-radar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/unfollow-radar-dark.jpg"><img src="assets/unfollow-radar-light.jpg" width="49%" alt="Unfollow Radar: Instagram'da seni geri takip etmeyenleri bulan tek dosyalık tarayıcı aracı. Veri tarayıcıdan hiç çıkmaz."></picture></a>
 </p>
 
-[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber) · [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)
+📺 [TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber) &nbsp;·&nbsp; 📡 [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)
 
 <p>
   <a href="https://yigitbuyukeren.com/dogum-gunu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dogum-gunu-dark.jpg"><img src="assets/dogum-gunu-light.jpg" width="49%" alt="Doğum Günü Sürprizi: sekiz sahnelik interaktif doğum günü sayfası. Tek HTML dosyası, sesler tarayıcıda üretilir. Demodaki giriş sorusunun cevabı 14 Şubat."></picture></a>
   <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
 </p>
 
-[Doğum Günü Sürprizi (canlı demo)](https://yigitbuyukeren.com/dogum-gunu/) · [Kaynak](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) · [cleanyourtv PR #874](https://github.com/Gathin23/cleanyourtv/pull/874)
+🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/)) &nbsp;·&nbsp; 🤝 [cleanyourtv PR #874](https://github.com/Gathin23/cleanyourtv/pull/874)
 
-## Şu an
+## 🔭 Şu an
 
-- **Durum:** Yeni projelere açığım.
-- **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
-- **Son iş:** TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
-- **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
+- 🟢 **Durum:** Yeni projelere açığım.
+- 🌿 **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
+- 📺 **Son iş:** TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
+- 🌐 **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
 
-## Nasıl çalışıyorum
+## 🛠️ Nasıl çalışıyorum
 
-1. **Önce kanıt.** Tip kontrolü, lint, birim testleri ve gerçek bir sunucuya karşı entegrasyon testleri geçmeden iş bitmiş sayılmaz.
-2. **Yazıya dökülmüş kararlar.** Proje durumu, kararlar ve çalıştırma kılavuzları repoda durur. Aylar sonra dönen biri, ben dahil, nereden devam edeceğini bilir.
-3. **Gerektiği kadar veri.** RideDeck'te hesap ve sunucu yok, Unfollow Radar veriyi tarayıcıdan çıkarmıyor. Toplanması gerekmeyen veri toplanmaz.
-4. **Geri dönüşü olan değişiklik.** Canlı bir sisteme dokunan her adımın geri alma yolu olur: önce yedek, sonra deneme modu, gerekirse tek komutla geri dönüş.
+1. ✅ **Önce kanıt.** Tip kontrolü, lint, birim testleri ve gerçek bir sunucuya karşı entegrasyon testleri geçmeden iş bitmiş sayılmaz.
+2. 📝 **Yazıya dökülmüş kararlar.** Proje durumu, kararlar ve çalıştırma kılavuzları repoda durur. Aylar sonra dönen biri, ben dahil, nereden devam edeceğini bilir.
+3. 🔒 **Gerektiği kadar veri.** RideDeck'te hesap ve sunucu yok, Unfollow Radar veriyi tarayıcıdan çıkarmıyor. Toplanması gerekmeyen veri toplanmaz.
+4. ↩️ **Geri dönüşü olan değişiklik.** Canlı bir sisteme dokunan her adımın geri alma yolu olur: önce yedek, sonra deneme modu, gerekirse tek komutla geri dönüş.
 
-## Kullandıklarım
+## 🧰 Kullandıklarım
 
 | | |
 |---|---|
-| **Mobil** | `React Native` `Expo` `TypeScript` |
-| **Android** | `Kotlin` `Jetpack Compose` `MapLibre` `ADB` `Root ve ROM` |
-| **Sunucu** | `PocketBase` `JavaScript` `Python` `REST API` |
-| **Altyapı** | `Linux` `Caddy` `VPS` `Tailscale` `Cloudflare` `Raspberry Pi` |
-| **Web** | `HTML` `CSS` `JavaScript` `Web Audio` |
-| **Ağ** | `TCP/IP` `Alt ağlar` `Temel yönlendirme` |
+| 📱 **Mobil** | ![React Native](https://img.shields.io/badge/React%20Native-16150F?style=flat-square&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-16150F?style=flat-square&logo=expo&logoColor=FFFFFF) ![TypeScript](https://img.shields.io/badge/TypeScript-16150F?style=flat-square&logo=typescript&logoColor=3178C6) |
+| 🤖 **Android** | ![Kotlin](https://img.shields.io/badge/Kotlin-16150F?style=flat-square&logo=kotlin&logoColor=7F52FF) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-16150F?style=flat-square&logo=jetpackcompose&logoColor=4285F4) ![MapLibre](https://img.shields.io/badge/MapLibre-16150F?style=flat-square&logo=maplibre&logoColor=396CB2) ![ADB](https://img.shields.io/badge/ADB-16150F?style=flat-square&logo=android&logoColor=3DDC84) |
+| 🗄️ **Sunucu** | ![PocketBase](https://img.shields.io/badge/PocketBase-16150F?style=flat-square&logo=pocketbase&logoColor=B8DBE4) ![JavaScript](https://img.shields.io/badge/JavaScript-16150F?style=flat-square&logo=javascript&logoColor=F7DF1E) ![Python](https://img.shields.io/badge/Python-16150F?style=flat-square&logo=python&logoColor=FFD43B) |
+| 🏗️ **Altyapı** | ![Linux](https://img.shields.io/badge/Linux-16150F?style=flat-square&logo=linux&logoColor=FCC624) ![Caddy](https://img.shields.io/badge/Caddy-16150F?style=flat-square&logo=caddy&logoColor=1F88C0) ![Tailscale](https://img.shields.io/badge/Tailscale-16150F?style=flat-square&logo=tailscale&logoColor=FFFFFF) ![Cloudflare](https://img.shields.io/badge/Cloudflare-16150F?style=flat-square&logo=cloudflare&logoColor=F38020) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-16150F?style=flat-square&logo=raspberrypi&logoColor=A22846) |
+| 🌐 **Web** | ![HTML](https://img.shields.io/badge/HTML-16150F?style=flat-square&logo=html5&logoColor=E34F26) ![CSS](https://img.shields.io/badge/CSS-16150F?style=flat-square&logo=css&logoColor=663399) ![Web Audio](https://img.shields.io/badge/Web%20Audio-16150F?style=flat-square) |
+| 🌍 **Ağ** | `TCP/IP` `Alt ağlar` `Temel yönlendirme` |
 
 <details>
-<summary><b>Sertifikalar</b></summary>
+<summary><b>🎓 Sertifikalar</b></summary>
 
 | Sertifika | Veren | Tarih |
 |---|---|---|
@@ -88,20 +93,20 @@ Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışı
 
 </details>
 
-## İletişim
+## ✉️ İletişim
 
 **Bir fikrin mi var? Birlikte kuralım.** Proje, iş birliği ya da teknik bir soru için [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com) adresine yazabilirsin. Genellikle birkaç gün içinde dönerim.
 
 <details>
-<summary><b>In English</b></summary>
+<summary><h2>🇬🇧 English</h2></summary>
 
 I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: mobile apps, Android, servers and networks. I build the interface, the server behind it and the infrastructure that keeps it running, and I prove it works with tests.
 
-- **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: a free, shared budgeting app for Turkish families (React Native, Expo, PocketBase), in development.
-- **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
-- **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box, also contributed to [cleanyourtv](https://github.com/Gathin23/cleanyourtv/pull/874).
-- **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
-- **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/)).
+- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: a free, shared budgeting app for Turkish families (React Native, Expo, PocketBase), in development.
+- 🏍️ **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
+- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box, also contributed to [cleanyourtv](https://github.com/Gathin23/cleanyourtv/pull/874).
+- 📡 **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
+- 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/)).
 
 More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
 

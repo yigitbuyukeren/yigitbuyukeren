@@ -2,6 +2,7 @@ import Cocoa
 import WebKit
 // Bir sayfanın görüntüsünü WebKit ile PNG olarak alır.
 // snap <url> <out.png> <genişlik> <yükseklik, 0 = sayfa yüksekliği> [bekleme sn] [dark]
+// SNAP_JS ortam değişkeni verilirse sayfa yüklenince o kod çalıştırılır, bekleme ondan sonra başlar.
 let a = CommandLine.arguments
 let url = URL(string: a[1])!, out = a[2]
 let w = Double(a[3])!, h0 = Double(a[4])!, delay = a.count > 5 ? Double(a[5])! : 1.5
@@ -15,6 +16,7 @@ func shoot(_ wv: WKWebView, _ h: Double) {
 }
 final class D: NSObject, WKNavigationDelegate {
   func webView(_ wv: WKWebView, didFinish n: WKNavigation!) {
+    if let js = ProcessInfo.processInfo.environment["SNAP_JS"] { wv.evaluateJavaScript(js, completionHandler: nil) }
     DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
       wv.evaluateJavaScript("document.getAnimations().forEach(function(x){try{x.finish()}catch(e){}});Math.ceil(document.documentElement.getBoundingClientRect().height)") { v, _ in
         var h = h0

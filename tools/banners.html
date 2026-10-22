@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- Proje README kapakları. Site klasöründe _gh/banners.html olarak sunulur; görseller _gh/img/ altına kopyalanır
+     (aile-icon.png, unfollow-icon.png, dg-*.jpg, site-*.png) ya da sitenin /assets/img/ klasöründen gelir.
+     ?p=aile|ride|tvplus|unfollow|dogum|site&theme=light|dark -->
+<html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
+html,body{margin:0;background:var(--bg)}
+.pb{position:relative;width:1280px;height:520px;border:1px solid var(--rule);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:560px 1fr;background:var(--bg)}
+.pb-text{padding:48px 0 44px 56px;display:flex;flex-direction:column;gap:18px;z-index:2}
+.pb-mark{display:flex;align-items:center;gap:10px;font:500 15px/1 var(--f-mono);color:var(--muted);letter-spacing:.02em}
+.pb-mark .mark-badge{width:30px;height:30px;border-radius:8px;font-size:12px}
+.pb-name{display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin-top:auto}
+.pb-icon{width:72px;height:72px;border-radius:19px;flex:none;box-shadow:var(--shadow);display:grid;place-items:center;font-size:40px;overflow:hidden}
+.pb-icon img{width:100%;height:100%;object-fit:cover}
+.pb h1{font-size:var(--fs,68px);max-width:480px;line-height:.95;letter-spacing:-.045em;font-weight:680}
+.pb .tagline{font:600 25px/1.3 var(--f-display);letter-spacing:-.02em;color:var(--ink-2);margin:0;max-width:20ch}
+.pb .tagline em{font-style:normal;color:var(--accent)}
+.pb .tags li{font-size:14px;padding:8px 12px}
+.pb-visual{position:relative;overflow:hidden;border-left:1px solid var(--rule)}
+.frame{position:absolute;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.12)}
+.frame img{width:100%;display:block}
+.win-bar{height:30px;background:#E9E6DF;display:flex;align-items:center;gap:7px;padding:0 12px}
+.win-bar i{width:11px;height:11px;border-radius:50%;background:#D4CFC4}
+.win-bar i:nth-child(1){background:#F26B5E}.win-bar i:nth-child(2){background:#F5BE4F}.win-bar i:nth-child(3){background:#5FC454}
+.win-bar span{margin-left:10px;font:500 12px/1 var(--f-mono);color:#6B675B}
+:root[data-theme="dark"] .win-bar{background:#26241F}:root[data-theme="dark"] .win-bar span{color:#9A9585}
+.pb-visual .phones{position:absolute;inset:0;padding:0}
+.pb-visual .phone{width:200px}
+.tv{position:absolute;left:60px;top:70px;width:620px;border:12px solid #0B0B0C;border-radius:14px;box-shadow:0 30px 70px -20px rgba(0,0,0,.8)}
+.tv img{display:block;width:100%}
+.tv::after{content:"";position:absolute;left:50%;bottom:-40px;width:140px;height:28px;transform:translateX(-50%);background:#0B0B0C;border-radius:0 0 10px 10px}
+</style></head><body><script>
+var q=new URLSearchParams(location.search),p=q.get('p');
+document.documentElement.dataset.theme=q.get('theme')||'light';
+var dark=document.documentElement.dataset.theme==='dark';
+var P={
+ aile:{url:'yigitbuyukeren.com/aile-cuzdani',icon:'<img src="/_gh/img/aile-icon.png">',name:'Aile Cüzdanı',tag:'Türk aileleri için <em>ücretsiz</em>, ortak bütçe uygulaması.',tags:['React Native','PocketBase','206 birim testi','iOS · Android'],
+   bg:dark?'#1D251F':'#E5ECE2',visual:'<div class="phones"><div class="phone"><img src="/assets/img/02-raporlar.webp"></div><div class="phone"><img src="/assets/img/01-ozet.webp"></div><div class="phone"><img src="/assets/img/03-hedefler.webp"></div></div>'},
+ ride:{url:'yigitbuyukeren.com/ridedeck',icon:'<img src="/assets/img/ridedeck-logo.webp">',name:'RideDeck',tag:'Telefonunu gidona tak, <em>CarPlay tarzı</em> sürüş paneline çevir.',tags:['Kotlin','Jetpack Compose','OpenStreetMap','Apache 2.0'],
+   bg:'radial-gradient(120% 90% at 70% 0%,#1A2A55 0%,#0A1020 60%)',visual:'<div class="frame" style="left:50px;top:84px;width:760px"><img src="/assets/img/rd-navigation.webp"></div>'},
+ tvplus:{url:'github.com/yigitbuyukeren/tvplus-4k-box-rehber',icon:'📺',iconbg:'#2A0A0A',name:'TV+ 4K Box Rehberi',tag:'Turkcell TV+ kutusunu <em>root\'suz</em> temizle, hızlandır, geri al.',tags:['ADB','Shell','Geri alınabilir','Boş RAM ×2'],
+   bg:'radial-gradient(110% 100% at 40% 30%,#6A0E0E 0%,#2A0606 55%,#120303 100%)',visual:'<div class="tv"><img src="/assets/img/w-tvplus.webp"></div>'},
+ unfollow:{url:'github.com/yigitbuyukeren/unfollow-radar',icon:'<img src="/_gh/img/unfollow-icon.png">',name:'Unfollow Radar',tag:'Instagram\'da seni <em>geri takip etmeyenleri</em> bul.',tags:['Konsola yapıştır','Kurulum yok','%100 yerel','MIT'],
+   bg:'linear-gradient(135deg,#7B5CFA 0%,#C25BC8 55%,#F0679A 100%)',visual:'<div class="frame" style="left:56px;top:56px;width:600px"><div class="win-bar"><i></i><i></i><i></i><span>instagram.com</span></div><img src="/assets/img/w-unfollow-tr.webp"></div>'},
+ dogum:{url:'yigitbuyukeren.com/dogum-gunu',icon:'🎂',iconbg:'#2A1A4A',name:'Doğum Günü Sürprizi',tag:'Sevdiğin birine <em>sekiz sahnelik</em> interaktif bir sürpriz.',tags:['Tek HTML','Kurulum yok','Web Audio','MIT'],
+   bg:'radial-gradient(90% 120% at 50% 110%,#5B2A86 0%,#1B1238 55%,#0C0A1C 100%)',visual:'<div class="phones"><div class="phone"><img src="/_gh/img/dg-0.jpg"></div><div class="phone"><img src="/_gh/img/dg-1.jpg"></div><div class="phone"><img src="/_gh/img/dg-2.jpg"></div></div>'},
+ site:{url:'yigitbuyukeren.com',icon:'<span class="mark-badge" style="width:72px;height:72px;border-radius:19px;font-size:28px">yb<i>.</i></span>',name:'yigitbuyukeren.com',tag:'Kişisel sitem: <em>framework\'süz</em> HTML ve CSS, kendi sunucumda.',tags:['HTML','CSS','Caddy','TR · EN'],
+   bg:dark?'#1A1915':'#E7E2D6',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>yigitbuyukeren.com</span></div><img src="/_gh/img/site-'+(dark?'dark':'light')+'.png"></div>'}
+}[p];
+var tags=P.tags.map(function(t){return '<li>'+t+'</li>'}).join('');
+document.body.innerHTML='<div class="pb"><div class="pb-text"><div class="pb-mark"><span class="mark-badge">yb<i>.</i></span>'+P.url+'</div>'+
+ '<div class="pb-name"><div class="pb-icon" style="background:'+(P.iconbg||'transparent')+'">'+P.icon+'</div><h1>'+P.name+'</h1></div>'+
+ '<p class="tagline">'+P.tag+'</p><ul class="tags">'+tags+'</ul></div>'+
+ '<div class="pb-visual" style="background:'+P.bg+'">'+P.visual+'</div></div>';
+if(p==='site'){document.querySelector('.pb-icon').style.boxShadow='none';document.querySelector('.pb h1').style.setProperty('--fs','50px')}
+</script></body></html>
