@@ -1,113 +1,110 @@
-<p align="center">
-  <img src="banner.png" alt="Aile Cüzdanı" width="100%">
-</p>
-
-<h1 align="center">Merhaba, ben Yiğit 👋</h1>
-
-<p align="center">
-  <a href="https://github.com/yigitbuyukeren">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=7F52FF&center=true&vCenter=true&width=560&lines=Mobil+ve+web+uygulamalar%C4%B1+geli%C5%9Ftiriyorum;React+Native+%C2%B7+TypeScript+%C2%B7+Kotlin;Motosiklet+i%C3%A7in+a%C3%A7%C4%B1k+kaynak+panel+yap%C4%B1yorum" alt="Mobil ve web uygulamaları geliştiriyorum">
-  </a>
-  <br>
-  <sub>I build mobile and web apps — React Native, TypeScript, Kotlin and Python.</sub>
-</p>
+<a href="https://yigitbuyukeren.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.jpg">
+    <img src="assets/banner-light.jpg" width="100%" alt="Yiğit Eren Büyükeren: Fikri alır, çalışan bir şeye çeviririm. Mobil uygulama, Android, sunucu ve ağ. İstanbul.">
+  </picture>
+</a>
 
 <p align="center">
-  <a href="https://yigitbuyukeren.com"><b>yigitbuyukeren.com</b></a> · <a href="mailto:mail@yigitbuyukeren.com">mail@yigitbuyukeren.com</a>
+  <a href="https://yigitbuyukeren.com"><b>yigitbuyukeren.com</b></a> ·
+  <a href="mailto:mail@yigitbuyukeren.com">mail@yigitbuyukeren.com</a> ·
+  <a href="https://yigitbuyukeren.com/en/">English</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/PocketBase-B8DBE4?style=for-the-badge&logo=pocketbase&logoColor=black" alt="PocketBase">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışıyorum. Ekrandaki arayüzü de, arkasındaki sunucuyu da, onu ayakta tutan altyapıyı da kendim kurarım ve çalıştığını testle gösteririm.
+
+## Seçili işler
+
+<a href="https://yigitbuyukeren.com/aile-cuzdani/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/aile-dark.jpg">
+    <img src="assets/aile-light.jpg" width="100%" alt="Aile Cüzdanı: Türk aileleri için ücretsiz ortak bütçe uygulaması. 30.000+ satır kod, 206 birim testi, 333 entegrasyon kontrolü, 43 veritabanı migration'ı. React Native, Expo, TypeScript, PocketBase.">
+  </picture>
+</a>
+
+**Aile Cüzdanı** · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/) · [Tanıtım deposu](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)
+
+<a href="https://yigitbuyukeren.com/ridedeck/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ride-dark.jpg">
+    <img src="assets/ride-light.jpg" width="100%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. 232 birim testi, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla.">
+  </picture>
+</a>
+
+**RideDeck** · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/) · [Kaynak kodu](https://github.com/yigitbuyukeren/ridedeck) · [APK indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
+
+### Diğer işler
+
+<p>
+  <a href="https://github.com/yigitbuyukeren/tvplus-4k-box-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tvplus-dark.jpg"><img src="assets/tvplus-light.jpg" width="49%" alt="TV+ 4K Box Rehberi: Turkcell TV+ 4K Box için root'suz, geri alınabilir temizlik ve hızlandırma rehberi. Açılıştan sonra boş RAM yaklaşık 460 MB'tan 930 MB'a çıkıyor."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/unfollow-radar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/unfollow-radar-dark.jpg"><img src="assets/unfollow-radar-light.jpg" width="49%" alt="Unfollow Radar: Instagram'da seni geri takip etmeyenleri bulan tek dosyalık tarayıcı aracı. Veri tarayıcıdan hiç çıkmaz."></picture></a>
 </p>
 
----
+[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber) · [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)
 
-## 🌿 Projeler
-
-### 🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) · ücretsiz, ortak bütçe
-
-Türk aileleri için ortak bütçe uygulaması: maaşı bir kez ekle, gelir, gider, taksit, abonelik, hesaplar,
-borçlar ve birikim hedefleri tek ekranda, ailenin tüm üyeleriyle birlikte görünsün. Arka ucu Türkiye'deki bir
-sunucuda canlı çalışıyor. React Native + PocketBase, kaynak kod kapalı.
-
-<p align="center">
-  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/01-ozet.jpg" width="190" alt="Özet"></a>&nbsp;&nbsp;
-  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/02-raporlar.jpg" width="190" alt="Raporlar"></a>&nbsp;&nbsp;
-  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><img src="https://raw.githubusercontent.com/yigitbuyukeren/aile-cuzdani-showcase/main/screens/06-hesaplar.jpg" width="190" alt="Hesaplar"></a>
+<p>
+  <a href="https://yigitbuyukeren.com/dogum-gunu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dogum-gunu-dark.jpg"><img src="assets/dogum-gunu-light.jpg" width="49%" alt="Doğum Günü Sürprizi: sekiz sahnelik interaktif doğum günü sayfası. Tek HTML dosyası, sesler tarayıcıda üretilir. Demodaki giriş sorusunun cevabı 14 Şubat."></picture></a>
+  <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/durum-geli%C5%9Ftirme%20a%C5%9Famas%C4%B1nda-F0997F?style=flat-square" alt="Durum">
-  <img src="https://img.shields.io/badge/birim%20testi-206-7F52FF?style=flat-square" alt="206 birim testi">
-  <img src="https://img.shields.io/badge/React%20Native-Expo-7F52FF?style=flat-square" alt="React Native, Expo">
-  <img src="https://img.shields.io/badge/PocketBase-sunucu-7F52FF?style=flat-square" alt="PocketBase">
-  <img src="https://img.shields.io/badge/kaynak-kapal%C4%B1-lightgrey?style=flat-square" alt="Kaynak kapalı">
-</p>
+[Doğum Günü Sürprizi (canlı demo)](https://yigitbuyukeren.com/dogum-gunu/) · [Kaynak](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) · [cleanyourtv PR #874](https://github.com/Gathin23/cleanyourtv/pull/874)
+
+## Şu an
+
+- **Durum:** Yeni projelere açığım.
+- **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
+- **Son iş:** TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
+- **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
+
+## Nasıl çalışıyorum
+
+1. **Önce kanıt.** Tip kontrolü, lint, birim testleri ve gerçek bir sunucuya karşı entegrasyon testleri geçmeden iş bitmiş sayılmaz.
+2. **Yazıya dökülmüş kararlar.** Proje durumu, kararlar ve çalıştırma kılavuzları repoda durur. Aylar sonra dönen biri, ben dahil, nereden devam edeceğini bilir.
+3. **Gerektiği kadar veri.** RideDeck'te hesap ve sunucu yok, Unfollow Radar veriyi tarayıcıdan çıkarmıyor. Toplanması gerekmeyen veri toplanmaz.
+4. **Geri dönüşü olan değişiklik.** Canlı bir sisteme dokunan her adımın geri alma yolu olur: önce yedek, sonra deneme modu, gerekirse tek komutla geri dönüş.
+
+## Kullandıklarım
 
 | | |
 |---|---|
-| 👨‍👩‍👧 **Ortak bütçe** | Davet koduyla 5 kişiye kadar, kim ne harcadı görünür, çocuk rolü |
-| 💳 **Taksit ve abonelik** | İlerleme takvimden hesaplanır, yaklaşan ödemeler ve gecikme uyarısı |
-| 🏦 **Hesaplar ve borçlar** | Nakit, banka, kredi kartı (son ödeme günü), borç ve alacak, harcama bölme |
-| 🎯 **Birikim ve raporlar** | Ortak hedefler, altın ve döviz, 3 / 6 / 12 aylık trend, PDF rapor |
+| **Mobil** | `React Native` `Expo` `TypeScript` |
+| **Android** | `Kotlin` `Jetpack Compose` `MapLibre` `ADB` `Root ve ROM` |
+| **Sunucu** | `PocketBase` `JavaScript` `Python` `REST API` |
+| **Altyapı** | `Linux` `Caddy` `VPS` `Tailscale` `Cloudflare` `Raspberry Pi` |
+| **Web** | `HTML` `CSS` `JavaScript` `Web Audio` |
+| **Ağ** | `TCP/IP` `Alt ağlar` `Temel yönlendirme` |
 
-[Tanıtım sayfası](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) · [yigitbuyukeren.com/aile-cuzdani](https://yigitbuyukeren.com/aile-cuzdani/)
+<details>
+<summary><b>Sertifikalar</b></summary>
 
-### 🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck) · açık kaynak
+| Sertifika | Veren | Tarih |
+|---|---|---|
+| CCNA: Introduction to Networks | Cisco | Mart 2026 |
+| Linux Unhatched | Cisco Networking Academy | Şubat 2026 |
+| Introduction to Cybersecurity | Cisco | Şubat 2026 |
+| Network Fundamentals Training (CCNA ITN) | Bilişim Academy | Şubat 2026 |
+| Ağ Temelleri | BTK Akademi | Aralık 2025 |
+| Bilgisayar Ağları | BTK Akademi | Aralık 2025 |
 
-Motosiklet, araba ve bisiklet için CarPlay tarzı Android sürüş paneli: telefonu gidonda yatay ekran
-dashboard'a çevirir. GPS hız göstergesi, sesli navigasyon (OpenStreetMap), benzinlik ve şarj durakları,
-hava uyarısı, müzik, uygulama içi telefon, Türkçe sesli asistan ve kaza algılamalı SOS. Hesap yok,
-sunucu yok. Kotlin + Jetpack Compose, Apache 2.0, katkılara açık.
+</details>
 
-<p align="center">
-  <a href="https://github.com/yigitbuyukeren/ridedeck"><img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/dashboard.png" width="400" alt="RideDeck dashboard"></a>&nbsp;&nbsp;
-  <a href="https://github.com/yigitbuyukeren/ridedeck"><img src="https://raw.githubusercontent.com/yigitbuyukeren/ridedeck/main/docs/screenshots/navigation.png" width="400" alt="RideDeck navigasyon"></a>
-</p>
+## İletişim
 
-<p align="center">
-  <a href="https://github.com/yigitbuyukeren/ridedeck/releases/latest"><img src="https://img.shields.io/github/v/release/yigitbuyukeren/ridedeck?style=flat-square&color=7F52FF" alt="Sürüm"></a>
-  <a href="https://github.com/yigitbuyukeren/ridedeck/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yigitbuyukeren/ridedeck?style=flat-square" alt="Lisans"></a>
-  <img src="https://img.shields.io/github/languages/top/yigitbuyukeren/ridedeck?style=flat-square&color=7F52FF" alt="Dil">
-  <img src="https://img.shields.io/github/last-commit/yigitbuyukeren/ridedeck?style=flat-square" alt="Son commit">
-  <img src="https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-brightgreen?style=flat-square" alt="PR'lar açık">
-</p>
+**Bir fikrin mi var? Birlikte kuralım.** Proje, iş birliği ya da teknik bir soru için [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com) adresine yazabilirsin. Genellikle birkaç gün içinde dönerim.
 
-| | |
-|---|---|
-| 🧭 **Navigasyon** | Sesli, OpenStreetMap tabanlı; motosiklet, araba ve bisiklet rotası, benzinlik ve şarj durakları |
-| 🎙️ **Sesli asistan** | Türkçe komutlar (yaklaşık 130 kalıp), kask mikrofonu, aramadan ve mesajdan önce onay |
-| 🆘 **Güvenlik** | Kaza algılama ve SOS, hava ve buz uyarısı |
-| 🎵 **Müzik ve telefon** | Eldivenle kullanılabilir büyük dokunma alanları |
+<details>
+<summary><b>In English</b></summary>
 
-[Kaynak kod](https://github.com/yigitbuyukeren/ridedeck) · [Son sürümü indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
+I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: mobile apps, Android, servers and networks. I build the interface, the server behind it and the infrastructure that keeps it running, and I prove it works with tests.
 
-## 🔭 Şu an
+- **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: a free, shared budgeting app for Turkish families (React Native, Expo, PocketBase), in development.
+- **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
+- **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box, also contributed to [cleanyourtv](https://github.com/Gathin23/cleanyourtv/pull/874).
+- **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
+- **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/)).
 
-- 🏍️ **RideDeck**: eski adıyla MotoDash. Motosiklet, araba ve bisiklet profilleri, Türkçe sesli asistan (300 cümlelik test derlemesiyle), uygulama içi telefon ekranı, uygulama rafı ve mil/mph desteği geldi. Sırada gerçek cihaz denemeleri ve yeni sürüm
-- 🌿 **Aile Cüzdanı**: arka ucu Türkiye'deki bir sunucuda canlı; hesaplar, borçlar, fiş ve döviz desteği eklendi, 206 birim testi ve 300'den fazla entegrasyon kontrolüyle yayına hazırlanıyor
-- 🌐 **[yigitbuyukeren.com](https://yigitbuyukeren.com)**: kişisel site ve proje sayfaları, Türkçe ve İngilizce
-- 💬 Katkı ve fikirlere açığım: [issue aç](https://github.com/yigitbuyukeren/ridedeck/issues) ya da [mail at](mailto:mail@yigitbuyukeren.com)
+More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
 
-## 🛠️ Nasıl çalışıyorum
+</details>
 
-- **Doğrulama önce:** tip kontrolü, lint, birim ve entegrasyon testleri geçmeden iş bitmiş sayılmaz
-- **Yazıya dökülmüş kararlar:** proje durumu ve kararlar markdown dosyalarında tutulur
-
-## 🧰 Teknolojiler
-
-`TypeScript` · `React Native` · `Expo` · `PocketBase` · `Kotlin` · `Jetpack Compose` · `MapLibre` · `Python` · `Vitest`
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F52FF&height=90&section=footer" alt="">
-</p>
-
-<sub>🇬🇧 **In English:** I'm Yiğit, a developer building mobile and web apps with React Native, TypeScript, Kotlin and Python. My projects are *Aile Cüzdanı*, a free shared budget app for Turkish families (in development), and *RideDeck* (formerly MotoDash), an open-source Android riding dashboard for motorcycles, cars and bicycles (Kotlin, Jetpack Compose).</sub>
+<sub>Görseller [yigitbuyukeren.com](https://yigitbuyukeren.com)'un kendi kartlarından üretilir: [`tools/render.sh`](tools/render.sh).</sub>
