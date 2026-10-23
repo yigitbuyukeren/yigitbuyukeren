@@ -48,11 +48,11 @@
 📺 [TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber) &nbsp;·&nbsp; 📡 [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)
 
 <p>
-  <a href="https://yigitbuyukeren.com/dogum-gunu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dogum-gunu-dark.jpg"><img src="assets/dogum-gunu-light.jpg" width="49%" alt="Doğum Günü Sürprizi: sekiz sahnelik interaktif doğum günü sayfası. Tek HTML dosyası, sesler tarayıcıda üretilir. Demodaki giriş sorusunun cevabı 14 Şubat."></picture></a>
+  <a href="https://yigitbuyukeren.com/dogum-gunu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dogum-gunu-dark.jpg"><img src="assets/dogum-gunu-light.jpg" width="49%" alt="Doğum Günü Sürprizi: sekiz sahnelik interaktif doğum günü sayfası. Tek HTML dosyası, sesler tarayıcıda üretilir. Demodaki giriş sorusunun cevabı 14 Mayıs."></picture></a>
   <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
 </p>
 
-🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/)) &nbsp;·&nbsp; 🤝 [cleanyourtv katkısı (birleştirildi)](https://github.com/Gathin23/cleanyourtv/pull/874)
+🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/), [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)) &nbsp;·&nbsp; 🤝 [cleanyourtv katkısı (birleştirildi)](https://github.com/Gathin23/cleanyourtv/pull/874)
 
 ## 🔭 Şu an
 
@@ -106,7 +106,7 @@ I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: m
 - 🏍️ **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
 - 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box, also contributed to [cleanyourtv](https://github.com/Gathin23/cleanyourtv/pull/874).
 - 📡 **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
-- 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/)).
+- 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/), [make your own](https://yigitbuyukeren.com/dogum-gunu/olustur/): fill a form, download the page).
 
 More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
 
