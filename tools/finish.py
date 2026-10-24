@@ -8,8 +8,8 @@ src, dst = sys.argv[1], sys.argv[2]
 BG = {'light': (255, 255, 255), 'dark': (13, 17, 23)}  # GitHub sayfa arka planı
 # ad: (köşe yarıçapı px, çıkış genişliği px)
 SPEC = {'banner': (48, 1700), 'aile': (48, 1660), 'ride': (48, 1660),
-        'w1': (36, 840), 'w2': (36, 840), 'w3': (36, 840), 'w4': (36, 840)}
-NAMES = {'w1': 'tvplus', 'w2': 'unfollow-radar', 'w3': 'dogum-gunu', 'w4': 'cleanyourtv'}
+        'w1': (36, 840), 'w2': (36, 840), 'w3': (36, 840), 'w4': (36, 840), 'w7': (36, 840)}
+NAMES = {'w1': 'tvplus', 'w2': 'unfollow-radar', 'w3': 'dogum-gunu', 'w4': 'cleanyourtv', 'w7': 'github-basarimlari'}
 
 for key, (radius, width) in SPEC.items():
     for theme in ('light', 'dark'):

@@ -50,6 +50,9 @@ var P={
    bg:'radial-gradient(90% 120% at 50% 110%,#E8749D 0%,#FFD3E3 55%,#FFF6FA 100%)',visual:'<div class="frame" style="left:50%;top:50%;transform:translate(-50%,-50%);width:430px;border:0;background:transparent;box-shadow:none"><img src="/_gh/img/kalpqr.png"></div>'},
  sohbet:{url:'github.com/yigitbuyukeren/sohbet-ozeti',icon:'💬',iconbg:'#0F3D2A',name:'Sohbet Özeti',tag:'WhatsApp sohbetini <em>tarayıcında</em> analiz et, hiçbir şey gönderilmez.',tags:['JavaScript','Bağımlılıksız','%100 yerel','MIT'],
    bg:dark?'radial-gradient(110% 100% at 60% 20%,#1C4A36 0%,#0E1F17 60%,#0A120E 100%)':'radial-gradient(110% 100% at 60% 20%,#B9E6CF 0%,#DDF2E7 55%,#F2FAF5 100%)',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>sohbet-ozeti</span></div><img src="/_gh/img/sohbet-'+(dark?'dark':'light')+'.png"></div>'},
+ basarim:{url:'github.com/yigitbuyukeren/github-basarimlari-rehber',icon:'🏆',iconbg:'#3A2A06',name:'GitHub Başarımları Rehberi',tag:'Tüm başarımlar ve rozetler, <em>nasıl kazanılır</em>.',tags:['Seviye eşikleri','Adım adım','Kapananlar','MIT'],
+   bg:dark?'radial-gradient(110% 100% at 60% 20%,#5A4310 0%,#241A07 60%,#120D04 100%)':'radial-gradient(110% 100% at 60% 20%,#F6DE9A 0%,#FBEFC9 55%,#FFF9E8 100%)',
+   visual:'<div style="position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,140px);grid-auto-rows:128px;gap:14px;justify-content:center;align-content:center">'+[['🦈','Pull Shark'],['🤠','YOLO'],['⚡','Quickdraw'],['👥','Pair Extraordinaire'],['⭐','Starstruck'],['🧠','Galaxy Brain'],['💖','Public Sponsor'],['🔒','Security Hunter'],['🏅','Campus Expert']].map(function(b){return '<div style="border-radius:22px;background:'+(dark?'rgba(255,255,255,.08)':'rgba(255,255,255,.7)')+';border:1px solid '+(dark?'rgba(255,255,255,.14)':'rgba(0,0,0,.08)')+';display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 18px 40px -22px rgba(0,0,0,.5)"><span style="font-size:44px;line-height:1">'+b[0]+'</span><span style="font:600 14px/1.2 var(--f-display);text-align:center;color:var(--ink-2);padding:0 8px">'+b[1]+'</span></div>'}).join('')+'</div>'},
  site:{url:'yigitbuyukeren.com',icon:'<span class="mark-badge" style="width:72px;height:72px;border-radius:19px;font-size:28px">yb<i>.</i></span>',name:'yigitbuyukeren.com',tag:'Kişisel sitem: <em>framework\'süz</em> HTML ve CSS, kendi sunucumda.',tags:['HTML','CSS','Caddy','TR · EN'],
    bg:dark?'#1A1915':'#E7E2D6',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>yigitbuyukeren.com</span></div><img src="/_gh/img/site-'+(dark?'dark':'light')+'.png"></div>'}
 }[p];
@@ -58,5 +61,6 @@ document.body.innerHTML='<div class="pb"><div class="pb-text"><div class="pb-mar
  '<div class="pb-name"><div class="pb-icon" style="background:'+(P.iconbg||'transparent')+'">'+P.icon+'</div><h1>'+P.name+'</h1></div>'+
  '<p class="tagline">'+P.tag+'</p><ul class="tags">'+tags+'</ul></div>'+
  '<div class="pb-visual" style="background:'+P.bg+'">'+P.visual+'</div></div>';
+if(p==='basarim')document.querySelector('.pb-mark').style.fontSize='12px';
 if(p==='site'){document.querySelector('.pb-icon').style.boxShadow='none';document.querySelector('.pb h1').style.setProperty('--fs','50px')}
 </script></body></html>

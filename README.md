@@ -52,13 +52,19 @@
   <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
 </p>
 
+<p>
+  <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
+</p>
+
+🏆 [GitHub Başarımları Rehberi](https://github.com/yigitbuyukeren/github-basarimlari-rehber) (tüm başarımlar ve nasıl kazanılır)
+
 🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/), [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)) &nbsp;·&nbsp; 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) (kalp şeklinde QR kod) &nbsp;·&nbsp; 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) ([canlı demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)) &nbsp;·&nbsp; 🤝 [cleanyourtv katkısı (birleştirildi)](https://github.com/Gathin23/cleanyourtv/pull/874)
 
 ## 🔭 Şu an
 
 - 🟢 **Durum:** Yeni projelere açığım.
 - 🌿 **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
-- 📺 **Son iş:** TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
+- 🏆 **Son iş:** GitHub Başarımları Rehberi. Ondan önce TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
 - 🌐 **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
 
 ## 🛠️ Nasıl çalışıyorum
@@ -108,6 +114,7 @@ I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: m
 - 📡 **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
 - 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/), [make your own](https://yigitbuyukeren.com/dogum-gunu/olustur/): fill a form, download the page).
 - 💗 **[Kalp QR](https://github.com/yigitbuyukeren/kalp-qr)**: a single-file Python tool that turns an address into a heart-shaped QR code that still scans.
+- 🏆 **[GitHub Achievements Guide](https://github.com/yigitbuyukeren/github-basarimlari-rehber)**: every GitHub profile achievement and badge, how to earn each one, tier thresholds and the retired ones (in Turkish).
 - 💬 **[Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti)**: drop a WhatsApp chat on the page and get stats, reply times and heatmaps; it runs in the browser and can't make network requests ([live demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)).
 
 More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
