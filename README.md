@@ -46,7 +46,7 @@
 </p>
 
 <p>
-  <a href="https://yigitbuyukeren.github.io/exif-temizleyici/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini tarayıcıda bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini tarayıcıda bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
   <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
 </p>
 
