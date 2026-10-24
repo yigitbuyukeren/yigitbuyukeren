@@ -25,7 +25,7 @@ for t in light dark; do
   "$TMP/snap" "$B?card=banner&theme=$t" "$TMP/banner-$t.png" 1280 400 1.5
   "$TMP/snap" "$B?card=aile&w=1100&theme=$t" "$TMP/aile-$t.png" 1100 0 2
   "$TMP/snap" "$B?card=ride&w=1100&theme=$t" "$TMP/ride-$t.png" 1100 0 2
-  for n in 1 2 3 4 7; do
+  for n in 1 2 3 4 7 8; do
     "$TMP/snap" "$B?card=w$n&w=560&h=585&theme=$t" "$TMP/w$n-$t.png" 560 585 2
   done
 done

@@ -1,4 +1,4 @@
-<!doctype html><!-- tools/render.sh için: yigitbuyukeren.com ana sayfasındaki kartları tek başına çizer (?card=banner|aile|ride|w1..w4|w7&theme=light|dark). --><html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
+<!doctype html><!-- tools/render.sh için: yigitbuyukeren.com ana sayfasındaki kartları tek başına çizer (?card=banner|aile|ride|w1..w4|w7|w8&theme=light|dark). --><html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
 html,body{margin:0;background:var(--bg)}
 body{width:var(--w)}
 .feature,.work{margin:0!important;box-shadow:none!important}
@@ -25,7 +25,7 @@ if(card==='banner'){
 }else{
   fetch('/').then(function(r){return r.text()}).then(function(t){
     var doc=new DOMParser().parseFromString(t,'text/html');
-    var sel={aile:'.feature--aile',ride:'.feature--ride',w1:'.works .work:nth-child(1)',w2:'.works .work:nth-child(2)',w3:'.works .work:nth-child(3)',w4:'.works .work:nth-child(6)',w7:'.works .work:nth-child(7)'}[card];
+    var sel={aile:'.feature--aile',ride:'.feature--ride',w1:'.works .work:nth-child(1)',w2:'.works .work:nth-child(2)',w3:'.works .work:nth-child(3)',w4:'.works .work:nth-child(6)',w7:'.works .work:nth-child(7)',w8:'.works .work:nth-child(8)'}[card];
     var el=doc.querySelector(sel);el.classList.remove('reveal');
     el.querySelectorAll('img').forEach(function(i){i.removeAttribute('loading')});
     var pr=el.querySelector('[data-pr-state]');if(pr)pr.parentNode.innerHTML='PR #874 · <b>birleştirildi</b>';
