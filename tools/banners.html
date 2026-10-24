@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- Proje README kapakları. Site klasöründe _gh/banners.html olarak sunulur; görseller _gh/img/ altına kopyalanır
-     (aile-icon.png, unfollow-icon.png, dg-*.jpg, site-*.png) ya da sitenin /assets/img/ klasöründen gelir.
-     ?p=aile|ride|tvplus|unfollow|dogum|site&theme=light|dark, isteğe bağlı &h=640 (yükseklik) ve &flat=1 (köşesiz, repo paylaşım görseli için) -->
+     (aile-icon.png, unfollow-icon.png, dg-*.jpg, kalpqr.png, site-*.png) ya da sitenin /assets/img/ klasöründen gelir.
+     ?p=aile|ride|tvplus|unfollow|dogum|kalpqr|site&theme=light|dark, isteğe bağlı &h=640 (yükseklik) ve &flat=1 (köşesiz, repo paylaşım görseli için) -->
 <html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
 html,body{margin:0;background:var(--bg)}
 .flat .pb{border:0;border-radius:0}
@@ -46,6 +46,8 @@ var P={
    bg:'linear-gradient(135deg,#7B5CFA 0%,#C25BC8 55%,#F0679A 100%)',visual:'<div class="frame" style="left:56px;top:56px;width:600px"><div class="win-bar"><i></i><i></i><i></i><span>instagram.com</span></div><img src="/assets/img/w-unfollow-tr.webp"></div>'},
  dogum:{url:'yigitbuyukeren.com/dogum-gunu',icon:'🎂',iconbg:'#2A1A4A',name:'Doğum Günü Sürprizi',tag:'Sevdiğin birine <em>sekiz sahnelik</em> interaktif bir sürpriz.',tags:['Tek HTML','Kurulum yok','Web Audio','MIT'],
    bg:'radial-gradient(90% 120% at 50% 110%,#5B2A86 0%,#1B1238 55%,#0C0A1C 100%)',visual:'<div class="phones"><div class="phone"><img src="/_gh/img/dg-0.jpg"></div><div class="phone"><img src="/_gh/img/dg-1.jpg"></div><div class="phone"><img src="/_gh/img/dg-2.jpg"></div></div>'},
+ kalpqr:{url:'github.com/yigitbuyukeren/kalp-qr',icon:'💗',iconbg:'#6B1A3A',name:'Kalp QR',tag:'Her adresi <em>kalp şeklinde</em>, telefonla okunan bir QR koda çevir.',tags:['Python','Tek dosya','Hata düzeltme H','MIT'],
+   bg:'radial-gradient(90% 120% at 50% 110%,#E8749D 0%,#FFD3E3 55%,#FFF6FA 100%)',visual:'<div class="frame" style="left:50%;top:50%;transform:translate(-50%,-50%);width:430px;border:0;background:transparent;box-shadow:none"><img src="/_gh/img/kalpqr.png"></div>'},
  site:{url:'yigitbuyukeren.com',icon:'<span class="mark-badge" style="width:72px;height:72px;border-radius:19px;font-size:28px">yb<i>.</i></span>',name:'yigitbuyukeren.com',tag:'Kişisel sitem: <em>framework\'süz</em> HTML ve CSS, kendi sunucumda.',tags:['HTML','CSS','Caddy','TR · EN'],
    bg:dark?'#1A1915':'#E7E2D6',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>yigitbuyukeren.com</span></div><img src="/_gh/img/site-'+(dark?'dark':'light')+'.png"></div>'}
 }[p];
