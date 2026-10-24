@@ -50,7 +50,11 @@
   <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
 </p>
 
-🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/), [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)) &nbsp;·&nbsp; 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) (kalp şeklinde QR kod) &nbsp;·&nbsp; 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) ([canlı demo](https://yigitbuyukeren.github.io/sohbet-ozeti/))
+**Daha küçük işler**
+
+- 🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi): interaktif doğum günü sayfası · [demo](https://yigitbuyukeren.com/dogum-gunu/) · [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)
+- 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr): kalp şeklinde QR kod üretir
+- 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti): WhatsApp sohbetini tarayıcıda analiz eder · [demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)
 
 ## 🔭 Şu an
 
