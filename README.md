@@ -45,27 +45,18 @@
   <a href="https://github.com/yigitbuyukeren/unfollow-radar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/unfollow-radar-dark.jpg"><img src="assets/unfollow-radar-light.jpg" width="49%" alt="Unfollow Radar: Instagram'da seni geri takip etmeyenleri bulan tek dosyalık tarayıcı aracı. Veri tarayıcıdan hiç çıkmaz."></picture></a>
 </p>
 
-📺 [TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber) &nbsp;·&nbsp; 📡 [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)
-
 <p>
-  <a href="https://yigitbuyukeren.com/dogum-gunu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dogum-gunu-dark.jpg"><img src="assets/dogum-gunu-light.jpg" width="49%" alt="Doğum Günü Sürprizi: sekiz sahnelik interaktif doğum günü sayfası. Tek HTML dosyası, sesler tarayıcıda üretilir. Demodaki giriş sorusunun cevabı 14 Mayıs."></picture></a>
-  <a href="https://github.com/Gathin23/cleanyourtv/pull/874"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cleanyourtv-dark.jpg"><img src="assets/cleanyourtv-light.jpg" width="49%" alt="cleanyourtv'ye katkı: Android TV temizleme projesine Turkcell TV+ 4K Box desteği ve kumanda tuşlarını kilitleyen bir firmware hatasının teşhisi. PR #874."></picture></a>
-</p>
-
-<p>
-  <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
   <a href="https://yigitbuyukeren.github.io/exif-temizleyici/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini tarayıcıda bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
 </p>
 
-🏆 [GitHub Başarımları Rehberi](https://github.com/yigitbuyukeren/github-basarimlari-rehber) (tüm başarımlar ve nasıl kazanılır) &nbsp;·&nbsp; 🧼 [EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici) ([demo](https://yigitbuyukeren.github.io/exif-temizleyici/), fotoğraftaki konum ve cihaz bilgisini siler, klasörler için komut satırı da var)
-
-🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/), [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)) &nbsp;·&nbsp; 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) (kalp şeklinde QR kod) &nbsp;·&nbsp; 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) ([canlı demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)) &nbsp;·&nbsp; 🤝 [cleanyourtv katkısı (birleştirildi)](https://github.com/Gathin23/cleanyourtv/pull/874)
+🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([canlı demo](https://yigitbuyukeren.com/dogum-gunu/), [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)) &nbsp;·&nbsp; 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) (kalp şeklinde QR kod) &nbsp;·&nbsp; 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) ([canlı demo](https://yigitbuyukeren.github.io/sohbet-ozeti/))
 
 ## 🔭 Şu an
 
 - 🟢 **Durum:** Yeni projelere açığım.
 - 🌿 **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
-- 🧼 **Son iş:** EXIF Temizleyici. Ondan önce GitHub Başarımları Rehberi ve TV+ 4K Box rehberi ve bu kutunun cleanyourtv'ye eklenmesi.
+- 🧼 **Son iş:** EXIF Temizleyici. Ondan önce GitHub Başarımları Rehberi ve TV+ 4K Box Rehberi.
 - 🌐 **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
 
 ## 🛠️ Nasıl çalışıyorum
@@ -111,7 +102,7 @@ I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: m
 
 - 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: a free, shared budgeting app for Turkish families (React Native, Expo, PocketBase), in development.
 - 🏍️ **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
-- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box, also contributed to [cleanyourtv](https://github.com/Gathin23/cleanyourtv/pull/874).
+- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box.
 - 📡 **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
 - 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/), [make your own](https://yigitbuyukeren.com/dogum-gunu/olustur/): fill a form, download the page).
 - 💗 **[Kalp QR](https://github.com/yigitbuyukeren/kalp-qr)**: a single-file Python tool that turns an address into a heart-shaped QR code that still scans.
