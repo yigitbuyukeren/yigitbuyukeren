@@ -32,7 +32,7 @@
 <a href="https://yigitbuyukeren.com/ridedeck/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/ride-dark.jpg">
-    <img src="assets/ride-light.jpg" width="100%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. 232 birim testi, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla.">
+    <img src="assets/ride-light.jpg" width="100%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. 396 birim testi, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla.">
   </picture>
 </a>
 
