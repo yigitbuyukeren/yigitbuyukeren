@@ -55,13 +55,13 @@
 - 🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi): interaktif doğum günü sayfası · [demo](https://yigitbuyukeren.com/dogum-gunu/) · [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)
 - 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr): kalp şeklinde QR kod üretir
 - 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti): WhatsApp sohbetini tarayıcıda analiz eder · [demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)
-- 📝 [Minik Not](https://github.com/yigitbuyukeren/minik-not): Mac için her zaman en üstte duran küçük not kağıdı
+- 📝 [Topnote](https://github.com/yigitbuyukeren/topnote): Mac için her zaman en üstte duran küçük not kağıdı
 
 ## 🔭 Şu an
 
 - 🟢 **Durum:** Yeni projelere açığım.
 - 🌿 **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
-- 📝 **Son iş:** Minik Not. Ondan önce EXIF Temizleyici ve GitHub Başarımları Rehberi.
+- 📝 **Son iş:** Topnote. Ondan önce EXIF Temizleyici ve GitHub Başarımları Rehberi.
 - 🌐 **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
 
 ## 🛠️ Nasıl çalışıyorum
@@ -114,7 +114,7 @@ I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: m
 - 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)** (EXIF Cleaner): run it on your own machine and it strips the GPS location, device, serial number and timestamps; JPEG, PNG and WebP are not re-encoded, so pixels stay identical, and nothing is uploaded; there is also a command-line mode for whole folders ([demo](https://yigitbuyukeren.github.io/exif-temizleyici/)).
 - 🏆 **[GitHub Achievements Guide](https://github.com/yigitbuyukeren/github-basarimlari-rehber)**: every GitHub profile achievement and badge, how to earn each one, tier thresholds and the retired ones (in Turkish).
 - 💬 **[Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti)**: drop a WhatsApp chat on the page and get stats, reply times and heatmaps; it runs in the browser and can't make network requests ([live demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)).
-- 📝 **[Minik Not](https://github.com/yigitbuyukeren/minik-not)**: a small Mac sticky note that always stays on top, even over full-screen apps; menu-bar app, global hotkey, autosave, no dependencies (in Turkish).
+- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: a small Mac sticky note that always stays on top, even over full-screen apps; menu-bar app, global hotkey, autosave, no dependencies (in Turkish).
 
 More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
 
