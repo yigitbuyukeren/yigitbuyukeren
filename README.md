@@ -1,122 +1,101 @@
 <a href="https://yigitbuyukeren.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.jpg">
-    <img src="assets/banner-light.jpg" width="100%" alt="Yiğit Eren Büyükeren: Fikri alır, çalışan bir şeye çeviririm. Mobil uygulama, Android, sunucu ve ağ. İstanbul.">
+    <img src="assets/banner-light.jpg" width="100%" alt="Yiğit Eren Büyükeren, Software Developer. Android, mobil ve sunucu sistemleri. İstanbul.">
   </picture>
 </a>
 
-<div align="center">
+# Yiğit Eren Büyükeren
 
-**[🌐 yigitbuyukeren.com](https://yigitbuyukeren.com)** &nbsp;·&nbsp; **[✉️ mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)** &nbsp;·&nbsp; **[🇬🇧 English](https://yigitbuyukeren.com/en/)**
+**Software Developer: Android, Mobile & Backend Systems** · İstanbul
 
-[![Site](https://img.shields.io/website?url=https%3A%2F%2Fyigitbuyukeren.com&style=flat-square&labelColor=16150F&color=E8480C&label=site&up_message=yay%C4%B1nda)](https://yigitbuyukeren.com)
-![Konum](https://img.shields.io/badge/konum-%C4%B0stanbul-E8480C?style=flat-square&labelColor=16150F)
-![Durum](https://img.shields.io/badge/durum-yeni%20projelere%20a%C3%A7%C4%B1k-E8480C?style=flat-square&labelColor=16150F)
-[![Takip](https://img.shields.io/github/followers/yigitbuyukeren?style=flat-square&labelColor=16150F&color=E8480C&label=takip%C3%A7i)](https://github.com/yigitbuyukeren?tab=followers)
+**[🌐 yigitbuyukeren.com](https://yigitbuyukeren.com)** &nbsp;·&nbsp; **[📄 CV (PDF)](https://yigitbuyukeren.com/cv/Yigit-Eren-Buyukeren-CV-TR.pdf)** &nbsp;·&nbsp; **[✉️ mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)** &nbsp;·&nbsp; **[🇬🇧 English](#-english)**
 
-</div>
+Android, mobil ve sunucu tarafında uygulama geliştiriyorum: arayüzü, arkasındaki sunucuyu ve testleri birlikte kurarım. Aşağıdaki iki proje en güçlü işlerim.
 
-👋 Merhaba, ben Yiğit. Mobil uygulama, Android, sunucu ve ağ üzerinde çalışıyorum. Ekrandaki arayüzü de, arkasındaki sunucuyu da, onu ayakta tutan altyapıyı da kendim kurarım ve çalıştığını testle gösteririm.
-
-## 🧭 Seçili işler
-
-<a href="https://yigitbuyukeren.com/aile-cuzdani/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/aile-dark.jpg">
-    <img src="assets/aile-light.jpg" width="100%" alt="Aile Cüzdanı: Türk aileleri için ücretsiz ortak bütçe uygulaması. 30.000+ satır kod, 206 birim testi, 333 entegrasyon kontrolü, 43 veritabanı migration'ı. React Native, Expo, TypeScript, PocketBase.">
-  </picture>
-</a>
-
-🌿 **Aile Cüzdanı** · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/) · [Tanıtım deposu](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)
-
-<a href="https://yigitbuyukeren.com/ridedeck/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ride-dark.jpg">
-    <img src="assets/ride-light.jpg" width="100%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. 396 birim testi, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla.">
-  </picture>
-</a>
-
-🏍️ **RideDeck** · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/) · [Kaynak kodu](https://github.com/yigitbuyukeren/ridedeck) · [APK indir](https://github.com/yigitbuyukeren/ridedeck/releases/latest)
-
-### 🧩 Diğer işler
+## 🧭 Öne çıkan projeler
 
 <p>
-  <a href="https://github.com/yigitbuyukeren/tvplus-4k-box-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tvplus-dark.jpg"><img src="assets/tvplus-light.jpg" width="49%" alt="TV+ 4K Box Rehberi: Turkcell TV+ 4K Box için root'suz, geri alınabilir temizlik ve hızlandırma rehberi. Açılıştan sonra boş RAM yaklaşık 460 MB'tan 930 MB'a çıkıyor."></picture></a>
-  <a href="https://github.com/yigitbuyukeren/unfollow-radar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/unfollow-radar-dark.jpg"><img src="assets/unfollow-radar-light.jpg" width="49%" alt="Unfollow Radar: Instagram'da seni geri takip etmeyenleri bulan tek dosyalık tarayıcı aracı. Veri tarayıcıdan hiç çıkmaz."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/ridedeck"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ride-dark.jpg"><img src="assets/ride-light.jpg" width="49%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. 396 birim testi, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/aile-dark.jpg"><img src="assets/aile-light.jpg" width="49%" alt="Aile Cüzdanı: Türk aileleri için ücretsiz ortak bütçe uygulaması. React Native, Expo, TypeScript, PocketBase."></picture></a>
 </p>
+
+**🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. GPS hız filtresi, OpenStreetMap ile sesli navigasyon, Türkçe sesli komutlar. Hesap ve sunucu yok.
+Kotlin · Jetpack Compose · 396 birim testi · GitHub Actions · [APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest) · [Teknik vaka analizi](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.md) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
+
+**🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz ortak bütçe uygulaması; mobil istemci, PocketBase sunucusu ve bildirim zamanlayıcısı. Yetkilendirme sunucuda uygulanır.
+React Native · Expo · TypeScript · 206 birim testi · 333 entegrasyon kontrolü · [Mimari ve tanıtım](https://github.com/yigitbuyukeren/aile-cuzdani-showcase#readme) · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/)
+
+> Aile Cüzdanı geliştirme aşamasındadır, mağazada yayınlanmadı ve kaynak kodu özeldir. RideDeck'in ekran görüntüleri emülatörden alınmıştır; SOS/kaza algılama eşikleri sahada ayarlanmamıştır.
+
+## 🔧 Teknik çalışmalar
 
 <p>
-  <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini tarayıcıda bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
-  <a href="https://github.com/yigitbuyukeren/github-basarimlari-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/github-basarimlari-dark.jpg"><img src="assets/github-basarimlari-light.jpg" width="49%" alt="GitHub Başarımları Rehberi: Pull Shark, YOLO, Quickdraw, Starstruck ve diğer başarımların nasıl kazanılacağı, seviye eşikleri ve artık kazanılamayanlar."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/topnote"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/topnote-dark.jpg"><img src="assets/topnote-light.jpg" width="49%" alt="Topnote: Mac için her zaman en üstte duran küçük not kağıdı. Swift, SwiftUI, AppKit, MIT."></picture></a>
 </p>
 
-**Daha küçük işler**
+- 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)**: JPEG/PNG/WebP'deki konum, cihaz ve zaman bilgisini bayt düzeyinde ayrıştırıp siler, görüntüyü yeniden sıkıştırmaz. Bağımlılıksız JavaScript, 38 test, komut satırı aracı. Yayındaki sayfa yalnızca demodur.
+- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: tam ekran uygulamaların üstünde bile duran macOS yapışkan notu. Swift, SwiftUI, AppKit; menü çubuğu, genel kısayol, 6 birim testi, [.app sürümü](https://github.com/yigitbuyukeren/topnote/releases/latest).
+- 📺 **[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: Turkcell TV+ 4K Box için root'suz, geri alınabilir ADB betikleri; her biri önce deneme modunda çalışır.
 
-- 🎂 [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi): interaktif doğum günü sayfası · [demo](https://yigitbuyukeren.com/dogum-gunu/) · [kendi sürümünü oluştur](https://yigitbuyukeren.com/dogum-gunu/olustur/)
-- 💗 [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr): kalp şeklinde QR kod üretir
-- 💬 [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti): WhatsApp sohbetini tarayıcıda analiz eder · [demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)
-- 📝 [Topnote](https://github.com/yigitbuyukeren/topnote): Mac için her zaman en üstte duran küçük not kağıdı
+## 🧩 Diğer projeler
 
-## 🔭 Şu an
+[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar) (Instagram, konsol aracı) · [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) (WhatsApp analizi, [demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)) · [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) · [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([demo](https://yigitbuyukeren.com/dogum-gunu/)) · [GitHub Başarımları Rehberi](https://github.com/yigitbuyukeren/github-basarimlari-rehber) · [Kişisel site](https://github.com/yigitbuyukeren/yigitbuyukeren.github.io)
 
-- 🟢 **Durum:** Yeni projelere açığım.
-- 🌿 **Odak:** Aile Cüzdanı'nı mağaza yayınına hazırlıyorum.
-- 📝 **Son iş:** Topnote. Ondan önce EXIF Temizleyici ve GitHub Başarımları Rehberi.
-- 🌐 **Site:** [yigitbuyukeren.com](https://yigitbuyukeren.com) baştan tasarlandı. Framework yok, düz HTML ve CSS, kendi sunucumda Caddy ile yayında.
-
-## 🛠️ Nasıl çalışıyorum
-
-1. ✅ **Önce kanıt.** Tip kontrolü, lint, birim testleri ve gerçek bir sunucuya karşı entegrasyon testleri geçmeden iş bitmiş sayılmaz.
-2. 📝 **Yazıya dökülmüş kararlar.** Proje durumu, kararlar ve çalıştırma kılavuzları repoda durur. Aylar sonra dönen biri, ben dahil, nereden devam edeceğini bilir.
-3. 🔒 **Gerektiği kadar veri.** RideDeck'te hesap ve sunucu yok, Unfollow Radar veriyi tarayıcıdan çıkarmıyor. Toplanması gerekmeyen veri toplanmaz.
-4. ↩️ **Geri dönüşü olan değişiklik.** Canlı bir sisteme dokunan her adımın geri alma yolu olur: önce yedek, sonra deneme modu, gerekirse tek komutla geri dönüş.
-
-## 🧰 Kullandıklarım
+## 🧰 Teknolojiler
 
 | | |
 |---|---|
-| 📱 **Mobil** | ![React Native](https://img.shields.io/badge/React%20Native-16150F?style=flat-square&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-16150F?style=flat-square&logo=expo&logoColor=FFFFFF) ![TypeScript](https://img.shields.io/badge/TypeScript-16150F?style=flat-square&logo=typescript&logoColor=3178C6) |
-| 🤖 **Android** | ![Kotlin](https://img.shields.io/badge/Kotlin-16150F?style=flat-square&logo=kotlin&logoColor=7F52FF) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-16150F?style=flat-square&logo=jetpackcompose&logoColor=4285F4) ![MapLibre](https://img.shields.io/badge/MapLibre-16150F?style=flat-square&logo=maplibre&logoColor=396CB2) ![ADB](https://img.shields.io/badge/ADB-16150F?style=flat-square&logo=android&logoColor=3DDC84) |
-| 🗄️ **Sunucu** | ![PocketBase](https://img.shields.io/badge/PocketBase-16150F?style=flat-square&logo=pocketbase&logoColor=B8DBE4) ![JavaScript](https://img.shields.io/badge/JavaScript-16150F?style=flat-square&logo=javascript&logoColor=F7DF1E) ![Python](https://img.shields.io/badge/Python-16150F?style=flat-square&logo=python&logoColor=FFD43B) |
-| 🏗️ **Altyapı** | ![Linux](https://img.shields.io/badge/Linux-16150F?style=flat-square&logo=linux&logoColor=FCC624) ![Caddy](https://img.shields.io/badge/Caddy-16150F?style=flat-square&logo=caddy&logoColor=1F88C0) ![Tailscale](https://img.shields.io/badge/Tailscale-16150F?style=flat-square&logo=tailscale&logoColor=FFFFFF) ![Cloudflare](https://img.shields.io/badge/Cloudflare-16150F?style=flat-square&logo=cloudflare&logoColor=F38020) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-16150F?style=flat-square&logo=raspberrypi&logoColor=A22846) |
-| 🌐 **Web** | ![HTML](https://img.shields.io/badge/HTML-16150F?style=flat-square&logo=html5&logoColor=E34F26) ![CSS](https://img.shields.io/badge/CSS-16150F?style=flat-square&logo=css&logoColor=663399) ![Web Audio](https://img.shields.io/badge/Web%20Audio-16150F?style=flat-square) |
-| 🌍 **Ağ** | `TCP/IP` `Alt ağlar` `Temel yönlendirme` |
+| **Android / mobil** | Kotlin, Jetpack Compose, MapLibre, Gradle, ADB, React Native, Expo, TypeScript |
+| **Sunucu** | PocketBase, REST API, Python, JavaScript (Node.js) |
+| **Diğer** | Swift, Shell, HTML, CSS |
+| **Araçlar / altyapı** | Git, GitHub Actions, Linux, Caddy, VPS, Tailscale, Cloudflare |
+| **Ağ** | TCP/IP, alt ağlar, temel yönlendirme |
+
+## 🤝 Açık kaynak katkısı
+
+- [Gathin23/cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874): Turkcell TV+ 4K Box (SDMC DV6069Y) için örnek yapılandırma. Birleştirildi.
 
 <details>
-<summary><b>🎓 Sertifikalar</b></summary>
+<summary><b>🎓 Sertifikalar</b> (kurs tamamlama sertifikaları; tam CCNA sertifikası değildir)</summary>
 
 | Sertifika | Veren | Tarih |
 |---|---|---|
-| CCNA: Introduction to Networks | Cisco | Mart 2026 |
+| CCNA: Introduction to Networks (kurs) | Cisco Networking Academy | Mart 2026 |
 | Linux Unhatched | Cisco Networking Academy | Şubat 2026 |
-| Introduction to Cybersecurity | Cisco | Şubat 2026 |
+| Introduction to Cybersecurity | Cisco Networking Academy | Şubat 2026 |
 | Network Fundamentals Training (CCNA ITN) | Bilişim Academy | Şubat 2026 |
 | Ağ Temelleri | BTK Akademi | Aralık 2025 |
 | Bilgisayar Ağları | BTK Akademi | Aralık 2025 |
 
 </details>
 
+## 🛠️ Nasıl çalışıyorum
+
+**Önce kanıt** (testler, tip kontrolü, lint, CI), **sahada denenmeyeni denenmiş diye yazmam**, **gerektiği kadar veri** toplarım, yetkiyi **sunucuda** veririm ve canlı sisteme dokunan her adımın **geri dönüşü** olur. Ayrıntı: [yigitbuyukeren.com](https://yigitbuyukeren.com/#yaklasim).
+
 ## ✉️ İletişim
 
-**Bir fikrin mi var? Birlikte kuralım.** Proje, iş birliği ya da teknik bir soru için [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com) adresine yazabilirsin. Genellikle birkaç gün içinde dönerim.
+Proje, iş birliği ya da teknik bir soru için [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com).
 
 <details>
 <summary><h2>🇬🇧 English</h2></summary>
 
-I'm Yiğit, a software developer in Istanbul. I take an idea and make it work: mobile apps, Android, servers and networks. I build the interface, the server behind it and the infrastructure that keeps it running, and I prove it works with tests.
+I'm Yiğit, a software developer in Istanbul working on **Android, mobile and backend systems**. I build the interface, the server behind it and the tests together. [Website](https://yigitbuyukeren.com/en/) · [CV (PDF)](https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
 
-- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: a free, shared budgeting app for Turkish families (React Native, Expo, PocketBase), in development.
-- 🏍️ **[RideDeck](https://yigitbuyukeren.com/en/ridedeck/)**: an open-source, CarPlay-style Android riding dashboard for motorcycles, cars and bikes (Kotlin, Jetpack Compose).
-- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: a root-free, reversible cleanup guide and scripts for Turkcell's set-top box.
-- 📡 **[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar)**: find who doesn't follow you back on Instagram; paste into the console, data never leaves the browser.
-- 🎂 **[Birthday Surprise](https://github.com/yigitbuyukeren/dogum-gunu-surprizi)**: an eight-scene interactive birthday page in a single HTML file ([live demo](https://yigitbuyukeren.com/dogum-gunu/), [make your own](https://yigitbuyukeren.com/dogum-gunu/olustur/): fill a form, download the page).
-- 💗 **[Kalp QR](https://github.com/yigitbuyukeren/kalp-qr)**: a single-file Python tool that turns an address into a heart-shaped QR code that still scans.
-- 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)** (EXIF Cleaner): run it on your own machine and it strips the GPS location, device, serial number and timestamps; JPEG, PNG and WebP are not re-encoded, so pixels stay identical, and nothing is uploaded; there is also a command-line mode for whole folders ([demo](https://yigitbuyukeren.github.io/exif-temizleyici/)).
-- 🏆 **[GitHub Achievements Guide](https://github.com/yigitbuyukeren/github-basarimlari-rehber)**: every GitHub profile achievement and badge, how to earn each one, tier thresholds and the retired ones (in Turkish).
-- 💬 **[Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti)**: drop a WhatsApp chat on the page and get stats, reply times and heatmaps; it runs in the browser and can't make network requests ([live demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)).
-- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: a small Mac sticky note that always stays on top, even over full-screen apps; menu-bar app, global hotkey, autosave, no dependencies (in Turkish).
+**Featured**
 
-More on [yigitbuyukeren.com/en](https://yigitbuyukeren.com/en/) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
+- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles, cars and bicycles: GPS speed filtering, voice-guided OpenStreetMap navigation, Turkish voice commands, no account or backend. 396 unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
+- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)** ("Family Wallet"): a shared budgeting app for Turkish families (React Native, Expo, TypeScript, PocketBase) with server-side authorization, 206 unit tests and 333 HTTP integration checks. In development, not in the stores, private source.
+
+**Technical work**
+
+- 🧼 **[EXIF Cleaner](https://github.com/yigitbuyukeren/exif-temizleyici)**: byte-level metadata stripping for JPEG, PNG and WebP without re-encoding; dependency-free JavaScript, CLI, 38 tests. The hosted page is a demo.
+- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: an always-on-top macOS sticky note in Swift, SwiftUI and AppKit, with a [downloadable .app](https://github.com/yigitbuyukeren/topnote/releases/latest).
+- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: reversible, root-free ADB scripts for Turkcell's set-top box.
+
+**Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
 
 </details>
 
