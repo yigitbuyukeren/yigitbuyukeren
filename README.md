@@ -20,7 +20,7 @@ Android, mobil ve sunucu tarafında uygulama geliştiriyorum: arayüzü, arkası
   <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/aile-dark.jpg"><img src="assets/aile-light.jpg" width="49%" alt="Aile Cüzdanı: Türk aileleri için ücretsiz ortak bütçe uygulaması. React Native, Expo, TypeScript, PocketBase."></picture></a>
 </p>
 
-**🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. GPS hız filtresi, OpenStreetMap ile sesli navigasyon, Türkçe sesli komutlar. Hesap ve sunucu yok.
+**🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. GPS hız filtresi, OpenStreetMap ile sesli navigasyon. Hesap ve sunucu yok.
 Kotlin · Jetpack Compose · 396 birim testi · GitHub Actions · [APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest) · [Teknik vaka analizi](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.md) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
 
 **🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz ortak bütçe uygulaması; mobil istemci, PocketBase sunucusu ve bildirim zamanlayıcısı. Yetkilendirme sunucuda uygulanır.
@@ -86,7 +86,7 @@ I'm Yiğit, a software developer in Istanbul working on **Android, mobile and ba
 
 **Featured**
 
-- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles, cars and bicycles: GPS speed filtering, voice-guided OpenStreetMap navigation, Turkish voice commands, no account or backend. 396 unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
+- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles, cars and bicycles: GPS speed filtering, voice-guided OpenStreetMap navigation, no account or backend. 396 unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
 - 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)** ("Family Wallet"): a shared budgeting app for Turkish families (React Native, Expo, TypeScript, PocketBase) with server-side authorization, 206 unit tests and 333 HTTP integration checks. In development, not in the stores, private source.
 
 **Technical work**
