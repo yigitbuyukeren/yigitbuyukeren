@@ -33,10 +33,12 @@ React Native · Expo · TypeScript · 206 birim testi · 333 entegrasyon kontrol
 <p>
   <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
   <a href="https://github.com/yigitbuyukeren/topnote"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/topnote-dark.jpg"><img src="assets/topnote-light.jpg" width="49%" alt="Topnote: Mac için her zaman en üstte duran küçük not kağıdı. Swift, SwiftUI, AppKit, MIT."></picture></a>
+  <a href="https://github.com/yigitbuyukeren/tazele"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tazele-dark.jpg"><img src="assets/tazele-light.jpg" width="49%" alt="Tazele: Mac'teki her şeyi tek yerden güncelleyen menü çubuğu uygulaması. Swift, SwiftUI, MIT."></picture></a>
 </p>
 
 - 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)**: JPEG/PNG/WebP'deki konum, cihaz ve zaman bilgisini bayt düzeyinde ayrıştırıp siler, görüntüyü yeniden sıkıştırmaz. Bağımlılıksız JavaScript, 38 test, komut satırı aracı. Yayındaki sayfa yalnızca demodur.
 - 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: tam ekran uygulamaların üstünde bile duran macOS yapışkan notu. Swift, SwiftUI, AppKit; menü çubuğu, genel kısayol, 6 birim testi, [.app sürümü](https://github.com/yigitbuyukeren/topnote/releases/latest).
+- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: macOS menü çubuğu uygulaması; eski Homebrew formül/cask, App Store ve npm global paketlerini listeler, seçilenleri canlı günlükle günceller, macOS güncellemelerini yalnızca listeler. Swift, SwiftUI, 6 birim testi. MVP.
 - 📺 **[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: Turkcell TV+ 4K Box için root'suz, geri alınabilir ADB betikleri; her biri önce deneme modunda çalışır.
 
 ## 🧩 Diğer projeler
@@ -93,6 +95,7 @@ I'm Yiğit, a software developer in Istanbul working on **Android, mobile and ba
 
 - 🧼 **[EXIF Cleaner](https://github.com/yigitbuyukeren/exif-temizleyici)**: byte-level metadata stripping for JPEG, PNG and WebP without re-encoding; dependency-free JavaScript, CLI, 38 tests. The hosted page is a demo.
 - 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: an always-on-top macOS sticky note in Swift, SwiftUI and AppKit, with a [downloadable .app](https://github.com/yigitbuyukeren/topnote/releases/latest).
+- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: a macOS menu-bar app (Swift, SwiftUI) that lists outdated Homebrew, App Store and npm packages and updates the selected ones with a live log; macOS updates are only listed. An MVP.
 - 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: reversible, root-free ADB scripts for Turkcell's set-top box.
 
 **Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
