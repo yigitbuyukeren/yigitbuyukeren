@@ -58,6 +58,9 @@ React Native · Expo · TypeScript · 206 birim testi · 333 entegrasyon kontrol
 ## 🤝 Açık kaynak katkısı
 
 - [Gathin23/cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874): Turkcell TV+ 4K Box (SDMC DV6069Y) için örnek yapılandırma. Birleştirildi.
+- [lzhgus/Capso#387](https://github.com/lzhgus/Capso/pull/387): macOS ekran yakalama uygulaması için Türkçe yerelleştirme. Birleştirildi.
+- [omlahore/RemoveMacAI#113](https://github.com/omlahore/RemoveMacAI/pull/113): uygulamanın Türkçe çevirisi (441 metin). Birleştirildi.
+- [selimfirat/pysad#471](https://github.com/selimfirat/pysad/pull/471): HalfSpaceTrees ve xStream için tam tip ipuçları. Birleştirildi.
 
 <details>
 <summary><b>🎓 Sertifikalar</b> (kurs tamamlama sertifikaları; tam CCNA sertifikası değildir)</summary>
@@ -98,7 +101,7 @@ I'm Yiğit, a software developer in Istanbul working on **Android, mobile and ba
 - 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: a macOS menu-bar app (Swift, SwiftUI) that lists outdated Homebrew, App Store, npm, rustup, gem, pipx/uv, Oh My Zsh and Sparkle apps and updates the selected ones with a live log; it can install macOS updates too (ones needing a restart only after confirmation). 149 unit tests. An MVP.
 - 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: reversible, root-free ADB scripts for Turkcell's set-top box.
 
-**Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
+**Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), [Capso#387](https://github.com/lzhgus/Capso/pull/387), [RemoveMacAI#113](https://github.com/omlahore/RemoveMacAI/pull/113) and [pysad#471](https://github.com/selimfirat/pysad/pull/471), all merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
 
 </details>
 
