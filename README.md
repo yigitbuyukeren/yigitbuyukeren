@@ -38,7 +38,7 @@ React Native · Expo · TypeScript · 206 birim testi · 333 entegrasyon kontrol
 
 - 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)**: JPEG/PNG/WebP'deki konum, cihaz ve zaman bilgisini bayt düzeyinde ayrıştırıp siler, görüntüyü yeniden sıkıştırmaz. Bağımlılıksız JavaScript, 38 test, komut satırı aracı. Yayındaki sayfa yalnızca demodur.
 - 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: tam ekran uygulamaların üstünde bile duran macOS yapışkan notu. Swift, SwiftUI, AppKit; menü çubuğu, genel kısayol, 6 birim testi, [.app sürümü](https://github.com/yigitbuyukeren/topnote/releases/latest).
-- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: macOS menü çubuğu uygulaması; eski Homebrew formül/cask, App Store ve npm global paketlerini listeler, seçilenleri canlı günlükle günceller, macOS güncellemelerini yalnızca listeler. Swift, SwiftUI, 6 birim testi. MVP.
+- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: macOS menü çubuğu uygulaması; eski Homebrew, App Store, npm, rustup, gem, pipx/uv, Oh My Zsh ve Sparkle uygulamalarını listeler, seçilenleri canlı günlükle günceller; macOS güncellemelerini de kurabilir (yeniden başlatma isteyenler onayla). Swift, SwiftUI, 149 birim testi. MVP.
 - 📺 **[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: Turkcell TV+ 4K Box için root'suz, geri alınabilir ADB betikleri; her biri önce deneme modunda çalışır.
 
 ## 🧩 Diğer projeler
@@ -95,7 +95,7 @@ I'm Yiğit, a software developer in Istanbul working on **Android, mobile and ba
 
 - 🧼 **[EXIF Cleaner](https://github.com/yigitbuyukeren/exif-temizleyici)**: byte-level metadata stripping for JPEG, PNG and WebP without re-encoding; dependency-free JavaScript, CLI, 38 tests. The hosted page is a demo.
 - 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: an always-on-top macOS sticky note in Swift, SwiftUI and AppKit, with a [downloadable .app](https://github.com/yigitbuyukeren/topnote/releases/latest).
-- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: a macOS menu-bar app (Swift, SwiftUI) that lists outdated Homebrew, App Store and npm packages and updates the selected ones with a live log; macOS updates are only listed. An MVP.
+- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: a macOS menu-bar app (Swift, SwiftUI) that lists outdated Homebrew, App Store, npm, rustup, gem, pipx/uv, Oh My Zsh and Sparkle apps and updates the selected ones with a live log; it can install macOS updates too (ones needing a restart only after confirmation). 149 unit tests. An MVP.
 - 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: reversible, root-free ADB scripts for Turkcell's set-top box.
 
 **Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
