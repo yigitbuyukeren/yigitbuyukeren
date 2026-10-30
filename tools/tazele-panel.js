@@ -44,7 +44,7 @@ window.tazelePanel=function(dark,o){
   '<div style="display:flex;align-items:center;gap:7px;padding:7px 10px;border-radius:9px;background:'+ov(.06)+'">'+sym('search',11.5,sec)+'<span style="font-size:12.5px;color:'+ter+'">Ara</span></div>'+
   '<div style="padding:1px 0">'+sections+'</div>'+
   '<div style="display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 0;border-radius:12px;background:'+brand+';box-shadow:0 3px 8px rgba(10,117,133,.35);color:#fff;font-size:13.5px;font-weight:600">'+sym('down',13.5,'#fff')+'<span>'+sel+' güncellemeyi yükle</span></div>'+
-  '<div style="display:flex;align-items:center;justify-content:space-between;font-size:11px;letter-spacing:.15px;color:'+ter+'"><span>Son tarama 9:38</span>'+sym('dots',11,ter)+'</div></div>';
+  '<div style="display:flex;align-items:center;justify-content:space-between;font-size:11px;letter-spacing:.15px;color:'+ter+'"><span>Son tarama 9:38</span><span style="display:inline-flex;align-items:center;gap:9px"><span style="display:inline-block;width:11px;height:13px;background:'+ter+';-webkit-mask:url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2011%2013%27%3E%3Cpath%20d%3D%27M2.5%205.5V4a3%203%200%200%201%206%200v1.5h.3c.7%200%201.2.5%201.2%201.2v4.6c0%20.7-.5%201.2-1.2%201.2H2.2C1.5%2012.5%201%2012%201%2011.3V6.7c0-.7.5-1.2%201.2-1.2zm1.4%200h3.2V4a1.6%201.6%200%200%200-3.2%200z%27%2F%3E%3C%2Fsvg%3E) center/100% 100% no-repeat"></span>'+sym('dots',11,ter)+'</span></div></div>';
 };
 window.tazeleSym=sym;
 })();
