@@ -26,7 +26,7 @@ Kotlin · Jetpack Compose · JUnit birim testleri · GitHub Actions · [APK](htt
 **🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz ortak bütçe uygulaması; mobil istemci, PocketBase sunucusu ve bildirim zamanlayıcısı. Yetkilendirme sunucuda uygulanır.
 React Native · Expo · TypeScript · 764 test (4 Kasım 2026 kaydı) · 400 HTTP kontrolü (1 Kasım kaydı) · [Mimari ve tanıtım](https://github.com/yigitbuyukeren/aile-cuzdani-showcase#readme) · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/)
 
-> Aile Cüzdanı geliştirme aşamasındadır, mağazada yayınlanmadı ve kaynak kodu özeldir. Son sunucu değişikliklerinin dağıtımı ve HTTP doğrulaması bekliyor. RideDeck'in ekran görüntüleri emülatörden alınmıştır; SOS/kaza algılama eşikleri sahada ayarlanmamıştır.
+> Aile Cüzdanı geliştirme aşamasındadır, mağazada yayınlanmadı ve kaynak kodu özeldir. 5 Kasım 2026 sunucu dağıtımı doğrulandı; 6 Kasım yerel quick kontrolü 304 testtir ve eski test sayılarıyla eşdeğer kapsam sayılmaz. RideDeck'in ekran görüntüleri emülatörden alınmıştır; SOS/kaza algılama eşikleri sahada ayarlanmamıştır.
 
 ## 🔐 Geliştirmede: Veil
 
@@ -97,8 +97,8 @@ I'm Yiğit, a software developer in Istanbul working on **Android, mobile, macOS
 
 **Featured**
 
-- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles, cars and bicycles: GPS speed filtering, voice-guided OpenStreetMap navigation, no account or backend. JUnit unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
-- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)** ("Family Wallet"): a shared budgeting app for Turkish families (React Native, Expo, TypeScript, PocketBase) with server-side authorization, 764 tests recorded on 4 Nov 2026 and 400 HTTP checks recorded on 1 Nov. Latest backend deployment and HTTP verification are pending. In development, not in the stores, private source.
+- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles: GPS speed filtering, voice-guided OpenStreetMap navigation, no account or backend. JUnit unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
+- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)** ("Family Wallet"): a shared budgeting app for Turkish families (React Native, Expo, TypeScript, PocketBase) with server-side authorization, 764 tests recorded on 4 Nov 2026 and 400 HTTP checks recorded on 1 Nov. The 5 Nov 2026 backend deployment was verified; the 6 Nov local quick run has 304 tests and is not equivalent in scope to the older counts. In development, not in the stores, private source.
 
 **In development:** [Veil](https://github.com/yigitbuyukeren/veil), a SimpleX-based Android messaging client with a Tor-only connection policy enforced in the app layer. Closed alpha is the target; release decision is **NO-GO**. No real-device verification or independent security audit. [Project and limitations](https://yigitbuyukeren.com/en/veil/).
 
