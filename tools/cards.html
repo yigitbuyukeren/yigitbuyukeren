@@ -1,35 +1,53 @@
 <!doctype html><!-- tools/render.sh için: yigitbuyukeren.com ana sayfasındaki kartları tek başına çizer (?card=banner|aile|ride|exif|topnote|tazele|tvplus&theme=light|dark). --><html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
 html,body{margin:0;background:var(--bg)}
 body{width:var(--w)}
-.feature,.work{margin:0!important;box-shadow:none!important}
-.feature .links,.work .links{display:none}
-.work{height:var(--h,auto)}
-.work .fact{margin-top:auto}
-.feature-text{padding:44px!important}
-.banner{position:relative;width:1280px;height:400px;border:1px solid var(--rule);border-radius:24px;padding:56px 64px;display:grid;grid-template-columns:1fr 250px;gap:48px;align-items:center;background:var(--bg)}
-.banner h1{font-size:76px;line-height:.95;letter-spacing:-.045em;font-weight:680;margin:22px 0}
-.banner h1 em{font-style:normal;color:var(--accent)}
-.banner .mark{font-size:22px}.banner .mark-badge{width:40px;height:40px;border-radius:11px;font-size:16px}
-.banner .sub{font:500 18px/1 var(--f-mono);color:var(--muted);letter-spacing:.02em;margin:0}
-.banner .avatar{max-width:none;width:250px;border-radius:36px}
-.banner .ruler{position:absolute;left:64px;right:64px;bottom:30px}
-.banner .now{position:absolute;right:64px;top:40px;font:500 15px/1 var(--f-mono);color:var(--ink-2);background:none;border:0;box-shadow:none}
+.feature,.work-card{margin:0!important;box-shadow:none!important}
+.feature .links,.work-card .links{display:none}
+.feature{padding:40px!important;border:0!important;border-radius:0!important}
+.work-card{height:var(--h,auto);padding:0}
+.work-body .fact{margin-top:auto}
+.banner{max-width:none;width:1280px;height:400px;border:1px solid var(--rule);border-radius:24px;padding:64px;display:grid;grid-template-columns:minmax(0,1fr) 208px;grid-template-rows:auto auto auto auto;grid-template-areas:"eyebrow avatar" "title avatar" "tagline avatar" "status status";column-gap:56px;row-gap:0;align-content:center;background:var(--bg)}
+.banner>a{grid-area:avatar;grid-row:1/4;align-self:center;justify-self:end;width:208px;height:208px;display:block;border-radius:32px;border:1px solid var(--rule);overflow:hidden}
+.banner .avatar{width:100%;height:100%;border:0;border-radius:0;margin:0;object-fit:cover;display:block}
+.banner .eyebrow{grid-area:eyebrow;align-self:start;margin:0 0 .9rem}
+.banner h1{grid-area:title;align-self:start;font-size:64px;line-height:1.02;letter-spacing:-.045em;max-width:none;margin:0}
+.banner .lead{grid-area:tagline;align-self:start;margin:1rem 0 0;max-width:32ch;color:var(--ink);font-size:24px;line-height:1.25;font-weight:600}
+.banner .lead strong{color:var(--ink);font-weight:600}
+.banner .status-line{grid-area:status;margin-top:1.5rem;font-size:.8rem;row-gap:.3rem}
 </style></head><body><script>
 var q=new URLSearchParams(location.search),root=document.documentElement;
 root.dataset.theme=q.get('theme')||'light';
 document.body.style.setProperty('--w',(q.get('w')||1100)+'px');
 if(q.get('h'))document.body.style.setProperty('--h',q.get('h')+'px');
 var card=q.get('card');
-if(card==='banner'){
-  document.body.innerHTML='<div class="banner"><div><span class="mark"><span class="mark-badge">yb<i>.</i></span><span>Yiğit Eren Büyükeren</span></span><h1>Fikri alır, <em>çalışan</em><br>bir şeye çeviririm.</h1><p class="sub">Android · Mobil · macOS · Sunucu · İstanbul</p></div><div class="avatar"><img src="/assets/img/avatar.png" alt=""></div><div class="ruler"></div></div>';
-}else{
-  fetch('/').then(function(r){return r.text()}).then(function(t){
-    var doc=new DOMParser().parseFromString(t,'text/html');
-    var sel={aile:'.feature--aile',ride:'.feature--ride',exif:'.work--exif',topnote:'.work--topnote',tazele:'.work--tazele',tvplus:'.work--tvplus'}[card];
-    var el=doc.querySelector(sel);if(!el)throw new Error('Kart bulunamadı: '+card);el.classList.remove('reveal');
-    el.querySelectorAll('img').forEach(function(i){i.removeAttribute('loading')});
-    var pr=el.querySelector('[data-pr-state]');if(pr)pr.parentNode.innerHTML='PR #874 · <b>birleştirildi</b>';
-    document.body.appendChild(el);
-  });
-}
+fetch('/').then(function(r){return r.text()}).then(function(t){
+  var doc=new DOMParser().parseFromString(t,'text/html');
+  doc.querySelectorAll('img').forEach(function(i){i.removeAttribute('loading')});
+  if(card==='banner'){
+    var hero=doc.querySelector('.hero');
+    if(!hero)throw new Error('Hero bulunamadı');
+    hero.querySelectorAll('.lead').forEach(function(p){if(!p.querySelector('strong'))p.remove()});
+    var act=hero.querySelector('.actions');if(act)act.remove();
+    hero.classList.add('banner');
+    document.body.appendChild(hero);
+    return;
+  }
+  var el;
+  if(card==='aile'||card==='ride'){
+    var features=doc.querySelectorAll('.feature');
+    features.forEach(function(f){
+      var h=f.querySelector('h3');
+      if(h&&((card==='aile'&&h.textContent.trim()==='Aile Cüzdanı')||(card==='ride'&&h.textContent.trim()==='RideDeck')))el=f;
+    });
+  }else{
+    var names={exif:'EXIF Temizleyici',topnote:'Topnote',tazele:'Tazele',tvplus:'TV+ 4K Box Rehberi'};
+    doc.querySelectorAll('.work-card').forEach(function(w){
+      var h=w.querySelector('h3');
+      if(h&&h.textContent.trim()===names[card])el=w;
+    });
+  }
+  if(!el)throw new Error('Kart bulunamadı: '+card);
+  el.classList.remove('reveal');
+  document.body.appendChild(el);
+});
 </script></body></html>
