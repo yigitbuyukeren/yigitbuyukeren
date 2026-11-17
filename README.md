@@ -1,116 +1,161 @@
-<a href="https://yigitbuyukeren.com">
+<a href="https://yigitbuyukeren.com/en/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.jpg">
-    <img src="assets/banner-light.jpg" width="100%" alt="Yiğit Eren Büyükeren, Software Developer. Android, mobil ve sunucu sistemleri. İstanbul.">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-hero-dark.jpg">
+    <img src="assets/banner-hero-light.jpg" width="100%" alt="Yiğit Eren Büyükeren — Android, mobile and backend developer in Istanbul">
   </picture>
 </a>
 
-# Yiğit Eren Büyükeren
-
-**Software Developer: Android, Mobile & Backend Systems** · İstanbul
-
-**[🌐 yigitbuyukeren.com](https://yigitbuyukeren.com)** &nbsp;·&nbsp; **[📄 CV (PDF)](https://yigitbuyukeren.com/cv/Yigit-Eren-Buyukeren-CV-TR.pdf)** &nbsp;·&nbsp; **[✉️ mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)** &nbsp;·&nbsp; **[🇬🇧 English](#-english)**
-
-Android, mobil, macOS ve sunucu tarafında uygulama geliştiriyorum. RideDeck ile sürüş deneyimi, Aile Cüzdanı ile ortak bütçe, Topnote ve Tazele ile masaüstü araçları üzerinde çalışıyorum. SimpleX tabanlı Android mesajlaşma istemcisi **[Veil](https://github.com/yigitbuyukeren/veil)** ise alfa geliştirme aşamasında.
-
-## 🧭 Öne çıkan projeler
-
-<p>
-  <a href="https://github.com/yigitbuyukeren/ridedeck"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ride-dark.jpg"><img src="assets/ride-light.jpg" width="49%" alt="RideDeck: motosiklet, araba ve bisiklet için açık kaynak, CarPlay tarzı Android sürüş paneli. JUnit testleri, 3 araç profili, Apache 2.0. Kotlin, Jetpack Compose, MapLibre, OpenStreetMap, Valhalla."></picture></a>
-  <a href="https://github.com/yigitbuyukeren/aile-cuzdani-showcase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/aile-dark.jpg"><img src="assets/aile-light.jpg" width="49%" alt="Aile Cüzdanı: Türk aileleri için ücretsiz ortak bütçe uygulaması. React Native, Expo, TypeScript, PocketBase."></picture></a>
+<p align="center">
+  <b>Android · Mobile · Backend</b> &nbsp;·&nbsp; Istanbul<br>
+  I build the app, the server, and the tests that keep both honest.<br>
+  Currently: <b>RideDeck 0.6.0</b> — an open-source motorcycle dashboard.<br><br>
+  <a href="https://yigitbuyukeren.com/en/">Website</a> &nbsp;·&nbsp;
+  <a href="https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf">CV</a> &nbsp;·&nbsp;
+  <a href="mailto:mail@yigitbuyukeren.com">Email</a> &nbsp;·&nbsp;
+  <a href="#türkçe">Türkçe</a>
 </p>
 
-**🏍️ [RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. GPS hız filtresi, OpenStreetMap ile sesli navigasyon. Hesap ve sunucu yok.
-Kotlin · Jetpack Compose · JUnit birim testleri · GitHub Actions · [APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest) · [Teknik vaka analizi](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.md) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
+---
 
-**🌿 [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)**: Türk aileleri için ücretsiz ortak bütçe uygulaması; mobil istemci, PocketBase sunucusu ve bildirim zamanlayıcısı. Yetkilendirme sunucuda uygulanır.
-React Native · Expo · TypeScript · 764 test (4 Kasım 2026 kaydı) · 400 HTTP kontrolü (1 Kasım kaydı) · [Mimari ve tanıtım](https://github.com/yigitbuyukeren/aile-cuzdani-showcase#readme) · [Proje sayfası](https://yigitbuyukeren.com/aile-cuzdani/)
+## RideDeck
 
-> Aile Cüzdanı geliştirme aşamasındadır, mağazada yayınlanmadı ve kaynak kodu özeldir. 5 Kasım 2026 sunucu dağıtımı doğrulandı; 6 Kasım yerel quick kontrolü 304 testtir ve eski test sayılarıyla eşdeğer kapsam sayılmaz. RideDeck'in ekran görüntüleri emülatörden alınmıştır; SOS/kaza algılama eşikleri sahada ayarlanmamıştır.
+**Flagship · open source · Android**
 
-## 🔐 Geliştirmede: Veil
+<a href="https://github.com/yigitbuyukeren/ridedeck">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ridedeck-dark.jpg">
+    <img src="assets/ridedeck-light.jpg" width="100%" alt="RideDeck: a motorcycle dashboard with speed, voice navigation, music and call controls">
+  </picture>
+</a>
 
-**[Veil](https://github.com/yigitbuyukeren/veil)**: SimpleX tabanlı, telefon numarası veya e-posta gerektirmeyen Android mesajlaşma istemcisi. Uygulama katmanı Tor bağlantı politikasını uygular; Tor yokken doğrudan bağlantıya geçmez. Kotlin · SimpleX · Tor · [Proje sayfası](https://yigitbuyukeren.com/veil/) · [Geliştirme durumu](https://github.com/yigitbuyukeren/veil/blob/main/docs/veil/DEVELOPMENT_STATUS.md)
+Mount a phone on the handlebar and RideDeck replaces the phone UI with a CarPlay-style riding display: GPS speed, voice-guided OpenStreetMap navigation, music, calls, and an optional SOS/crash countdown. The controls are sized for gloves, and text entry is locked while moving.
 
-Kapalı alfa hedefleniyor; yayın kararı **NO-GO**. Gerçek cihaz doğrulaması ve bağımsız güvenlik denetimi yok. Tor ve şifreleme anonimlik garantisi vermez.
-
-## 🔧 Teknik çalışmalar
-
-<p>
-  <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-temizleyici-dark.jpg"><img src="assets/exif-temizleyici-light.jpg" width="49%" alt="EXIF Temizleyici: fotoğraftaki konum, cihaz, seri numarası ve zaman bilgisini bulup siler. Fotoğraf hiçbir yere yüklenmez, kalite kaybı yok."></picture></a>
-  <a href="https://github.com/yigitbuyukeren/topnote"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/topnote-dark.jpg"><img src="assets/topnote-light.jpg" width="49%" alt="Topnote: Mac için her zaman en üstte duran küçük not kağıdı. Swift, SwiftUI, AppKit, MIT."></picture></a>
-  <a href="https://github.com/yigitbuyukeren/tazele"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tazele-dark.jpg"><img src="assets/tazele-light.jpg" width="49%" alt="Tazele: Mac'teki her şeyi tek yerden güncelleyen menü çubuğu uygulaması. Swift, SwiftUI, MIT."></picture></a>
-</p>
-
-- 🧼 **[EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici)**: JPEG/PNG/WebP'deki konum, cihaz ve zaman bilgisini bayt düzeyinde ayrıştırıp siler, görüntüyü yeniden sıkıştırmaz. Bağımlılıksız JavaScript, 38 test, komut satırı aracı. Yayındaki sayfa yalnızca demodur.
-- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: tam ekran uygulamaların üstünde bile duran macOS yapışkan notu. Swift, SwiftUI, AppKit; menü çubuğu, genel kısayol, 7 birim testi, [.app sürümü](https://github.com/yigitbuyukeren/topnote/releases/latest).
-- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: macOS menü çubuğu uygulaması; eski Homebrew, App Store, npm, rustup, gem, pipx/uv, Oh My Zsh ve Sparkle uygulamalarını listeler, seçilenleri canlı günlükle günceller; macOS güncellemelerini de kurabilir (yeniden başlatma isteyenler onayla). Swift, SwiftUI, 149 birim testi. MVP.
-- 📺 **[TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: Turkcell TV+ 4K Box için root'suz, geri alınabilir ADB betikleri; her biri önce deneme modunda çalışır.
-
-## 🧩 Diğer projeler
-
-[Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar) (Instagram, konsol aracı) · [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) (WhatsApp analizi, [demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)) · [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) · [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([demo](https://yigitbuyukeren.com/dogum-gunu/)) · [GitHub Başarımları Rehberi](https://github.com/yigitbuyukeren/github-basarimlari-rehber) · [Kişisel site](https://github.com/yigitbuyukeren/yigitbuyukeren.github.io)
-
-## 🧰 Teknolojiler
+Open source, no account, and no backend of its own. It is motorcycle-only by design.
 
 | | |
 |---|---|
-| **Android / mobil** | Kotlin, Jetpack Compose, MapLibre, Gradle, ADB, React Native, Expo, TypeScript |
-| **Sunucu** | PocketBase, REST API, Python, JavaScript (Node.js) |
-| **Diğer** | Swift, Shell, HTML, CSS |
-| **Araçlar / altyapı** | Git, GitHub Actions, Linux, Caddy, VPS, Tailscale, Cloudflare |
-| **Ağ** | TCP/IP, alt ağlar, temel yönlendirme |
+| **Release** | `v0.6.0` · signed APK · Apache 2.0 |
+| **Proof** | Latest CI (17 Nov): 742/742 JVM tests · static 16 KB alignment |
+| **Stack** | Kotlin · Jetpack Compose · MapLibre · OpenStreetMap · Valhalla |
+| **Limits** | Emulator screenshots; no real-device ride/SMS test. Routes, search and weather need a connection. SOS/crash thresholds are not field-tuned. |
 
-## 🤝 Açık kaynak katkısı
+**[Download APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest)** · [Source](https://github.com/yigitbuyukeren/ridedeck) · [Project page](https://yigitbuyukeren.com/en/ridedeck/)
 
-- [Gathin23/cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874): Turkcell TV+ 4K Box (SDMC DV6069Y) için örnek yapılandırma. Birleştirildi.
-- [lzhgus/Capso#387](https://github.com/lzhgus/Capso/pull/387): macOS ekran yakalama uygulaması için Türkçe yerelleştirme. Birleştirildi.
-- [omlahore/RemoveMacAI#113](https://github.com/omlahore/RemoveMacAI/pull/113): uygulamanın Türkçe çevirisi (441 metin). Birleştirildi.
-- [selimfirat/pysad#471](https://github.com/selimfirat/pysad/pull/471): HalfSpaceTrees ve xStream için tam tip ipuçları. Birleştirildi.
+<sub>Verification history: [STATUS.md](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/STATUS.md) (TR).</sub>
+
+---
+
+## More work
+
+### Aile Cüzdanı
+
+A shared household budget for Turkish families: income, expenses, installments, subscriptions and savings goals in one place, for up to five family members. React Native · Expo · TypeScript · PocketBase, with authorization enforced on the server. Private source; in development, not in the stores. [Showcase](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)
+
+### Veil
+
+Privacy-first Android messaging in closed-alpha development: a SimpleX-based client with a Tor-only policy for messages and files (opt-in calls are the exception), and no phone number or email. Release decision is **NO-GO** — there is no independent security audit or real-device verification yet. [Source](https://github.com/yigitbuyukeren/veil) · [Status](https://github.com/yigitbuyukeren/veil/blob/main/docs/veil/DEVELOPMENT_STATUS.md)
+
+### Smaller tools
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/yigitbuyukeren/exif-temizleyici"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/exif-thumb-dark.jpg"><img src="assets/exif-thumb-light.jpg" width="100%" alt="EXIF Cleaner interface showing location, device and serial number metadata"></picture></a><br>
+      <b>EXIF Cleaner</b><br>
+      <sub>Metadata removal · JS · 38 tests<br><a href="https://github.com/yigitbuyukeren/exif-temizleyici">Source</a> · <a href="https://yigitbuyukeren.github.io/exif-temizleyici/">Demo</a></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/yigitbuyukeren/topnote"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/topnote-thumb-dark.jpg"><img src="assets/topnote-thumb-light.jpg" width="100%" alt="Topnote: three sticky notes in yellow, pink and blue"></picture></a><br>
+      <b>Topnote</b><br>
+      <sub>Always-on-top macOS note · Swift · 7 tests<br><a href="https://github.com/yigitbuyukeren/topnote">Source</a> · <a href="https://github.com/yigitbuyukeren/topnote/releases/latest">Download</a> (ad-hoc signed)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/yigitbuyukeren/tazele"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tazele-thumb-dark.jpg"><img src="assets/tazele-thumb-light.jpg" width="100%" alt="Tazele: a menu-bar app listing available macOS updates"></picture></a><br>
+      <b>Tazele</b><br>
+      <sub>One update hub for macOS apps · Swift · 149 tests<br><a href="https://github.com/yigitbuyukeren/tazele">Source</a> · MVP</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/yigitbuyukeren/tvplus-4k-box-rehber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tvplus-thumb-dark.jpg"><img src="assets/tvplus-thumb-light.jpg" width="100%" alt="TV+ 4K Box home screen after reversible debloat"></picture></a><br>
+      <b>TV+ 4K Box</b><br>
+      <sub>Root-free ADB guide<br>~460 → ~930 MB free RAM (test unit)<br><a href="https://github.com/yigitbuyukeren/tvplus-4k-box-rehber">Source</a></sub>
+    </td>
+  </tr>
+</table>
+
+**Also on GitHub:** [Unfollow Radar](https://github.com/yigitbuyukeren/unfollow-radar) · [Sohbet Özeti](https://github.com/yigitbuyukeren/sohbet-ozeti) ([demo](https://yigitbuyukeren.github.io/sohbet-ozeti/)) · [Kalp QR](https://github.com/yigitbuyukeren/kalp-qr) · [Doğum Günü Sürprizi](https://github.com/yigitbuyukeren/dogum-gunu-surprizi) ([demo](https://yigitbuyukeren.com/dogum-gunu/)) · [Mayın Tarlası 3D](https://github.com/yigitbuyukeren/mayin-tarlasi-3d) · [GitHub Achievements Guide](https://github.com/yigitbuyukeren/github-basarimlari-rehber)
+
+---
+
+## Open source
+
+**12 merged upstream pull requests across 8 projects (Nov 2026).** Bug fixes, package definitions, type hints and Turkish localization for tools I use.
+
+### Floe
+
+[Floe](https://github.com/jannskiee/floe) is an encrypted peer-to-peer file transfer tool for the browser, desktop and CLI. Three merged fixes:
+
+- **CLI:** a closed terminal or lost SSH session now cancels like Ctrl+C and tells the peer. [#860](https://github.com/jannskiee/floe/pull/860)
+- **Engine:** pipes, sockets and devices are rejected instead of being sent as files. [#861](https://github.com/jannskiee/floe/pull/861)
+- **Desktop:** settings files with UTF-8 and UTF-16 LE byte-order marks load correctly. [#827](https://github.com/jannskiee/floe/pull/827)
+
+### Other contributions
+
+- **[deb-get](https://github.com/wimpysworld/deb-get)** — package definitions for IPTVnator and Ghost Downloader. [#2073](https://github.com/wimpysworld/deb-get/pull/2073) · [#2072](https://github.com/wimpysworld/deb-get/pull/2072)
+- **[pysad](https://github.com/selimfirat/pysad)** — full type hints for HalfSpaceTrees and xStream. [#471](https://github.com/selimfirat/pysad/pull/471)
+- **Turkish localization** — [Capso](https://github.com/lzhgus/Capso/pull/387), [RemoveMacAI](https://github.com/omlahore/RemoveMacAI/pull/113), [ClipQR](https://github.com/MojeZcg/ClipQR/pull/49) and the [MyIP README](https://github.com/jason5ng32/MyIP/pull/541).
+- **ClipQR** — stopped the Spanish "sin códigos" text from being clipped on macOS. [#50](https://github.com/MojeZcg/ClipQR/pull/50)
+- **[cleanyourtv](https://github.com/Gathin23/cleanyourtv)** — Turkcell TV+ 4K Box (SDMC DV6069Y) configuration. [#874](https://github.com/Gathin23/cleanyourtv/pull/874)
+
+---
+
+## Toolkit
+
+| | |
+|---|---|
+| **Mobile** | Kotlin · Jetpack Compose · MapLibre · Gradle · ADB · React Native · Expo · TypeScript |
+| **Backend** | PocketBase · REST · Python · Node.js |
+| **Desktop** | Swift · SwiftUI · AppKit |
+| **Infra** | Git · GitHub Actions · Linux · Caddy · VPS · Tailscale · Cloudflare |
+
+---
+
+## Contact
+
+For work, collaboration or a technical question: **[mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)**<br>
+[Website](https://yigitbuyukeren.com/en/) · [CV (EN)](https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf) · [Site source](https://github.com/yigitbuyukeren/yigitbuyukeren.github.io)
 
 <details>
-<summary><b>🎓 Sertifikalar</b> (kurs tamamlama sertifikaları; tam CCNA sertifikası değildir)</summary>
+<summary>Certificates and coursework</summary>
 
-| Sertifika | Veren | Tarih |
+Course-completion certificates, not the full CCNA certification.
+
+| Course | Issuer | Completed |
 |---|---|---|
-| CCNA: Introduction to Networks (kurs) | Cisco Networking Academy | Mart 2026 |
-| Linux Unhatched | Cisco Networking Academy | Şubat 2026 |
-| Introduction to Cybersecurity | Cisco Networking Academy | Şubat 2026 |
-| Network Fundamentals Training (CCNA ITN) | Bilişim Academy | Şubat 2026 |
-| Ağ Temelleri | BTK Akademi | Aralık 2025 |
-| Bilgisayar Ağları | BTK Akademi | Aralık 2025 |
+| CCNA: Introduction to Networks | Cisco Networking Academy | Mar 2026 |
+| Linux Unhatched | Cisco Networking Academy | Feb 2026 |
+| Introduction to Cybersecurity | Cisco Networking Academy | Feb 2026 |
+| Network Fundamentals Training (CCNA ITN) | Bilişim Academy | Feb 2026 |
+| Ağ Temelleri | BTK Akademi | Dec 2025 |
+| Bilgisayar Ağları | BTK Akademi | Dec 2025 |
 
 </details>
 
-## 🛠️ Nasıl çalışıyorum
+---
 
-**Önce kanıt** (testler, tip kontrolü, lint, CI), **sahada denenmeyeni denenmiş diye yazmam**, **gerektiği kadar veri** toplarım, yetkiyi **sunucuda** veririm ve canlı sisteme dokunan her adımın **geri dönüşü** olur. Ayrıntı: [yigitbuyukeren.com](https://yigitbuyukeren.com/#yaklasim).
+## Türkçe
 
-## ✉️ İletişim
+Android, mobil ve sunucu sistemleri geliştiriyorum. Uygulamayı, arkasındaki sunucuyu ve ikisini de dürüst tutan testleri birlikte yazıyorum.
 
-Proje, iş birliği ya da teknik bir soru için [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com).
+**Ana proje: RideDeck.** Telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. Yalnız motosiklet için: GPS hızı, OpenStreetMap ile sesli navigasyon, müzik, telefon ve isteğe bağlı SOS. Hesap yok; kendine ait sunucusu yok. Ekran görüntüleri emülatörden; gerçek cihazda sürüş/SMS testi yok. Rota, arama ve hava durumu bağlantı ister; SOS/kaza eşikleri sahada ayarlanmadı. [APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest) · [Kaynak](https://github.com/yigitbuyukeren/ridedeck) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
 
-<details>
-<summary><h2>🇬🇧 English</h2></summary>
+**Diğer projeler:** [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) (özel kaynak, geliştirmede) · [Veil](https://github.com/yigitbuyukeren/veil) (kapalı alfa geliştirmesi, NO-GO; mesaj ve dosyalarda Tor, isteğe bağlı aramalar istisna) · [EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici) · [Topnote](https://github.com/yigitbuyukeren/topnote) · [Tazele](https://github.com/yigitbuyukeren/tazele) · [TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)
 
-I'm Yiğit, a software developer in Istanbul working on **Android, mobile, macOS and backend systems**. I build the interface, the server behind it and the tests together. [Website](https://yigitbuyukeren.com/en/) · [CV (PDF)](https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf) · [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)
+**Açık kaynak:** 8 projede birleştirilmiş 12 upstream PR var. Floe'da üç düzeltme birleştirildi: terminal kapanınca veya SSH oturumu düşünce Ctrl+C gibi iptal etme, dosya toplarken pipe/socket/aygıtları reddetme, BOM'lu ayar dosyalarını okuma. Diğerleri: deb-get, pysad, Capso, RemoveMacAI, ClipQR, MyIP ve cleanyourtv.
 
-**Featured**
+**İletişim:** [mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com) · [Web](https://yigitbuyukeren.com) · [CV (TR)](https://yigitbuyukeren.com/cv/Yigit-Eren-Buyukeren-CV-TR.pdf)
 
-- 🏍️ **[RideDeck](https://github.com/yigitbuyukeren/ridedeck)**: an open-source Android app (Kotlin, Jetpack Compose) that turns a phone into a CarPlay-style riding dashboard for motorcycles: GPS speed filtering, voice-guided OpenStreetMap navigation, no account or backend. JUnit unit tests, GitHub Actions CI, signed [release](https://github.com/yigitbuyukeren/ridedeck/releases/latest), [technical case study](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/CASE-STUDY.en.md). Screenshots are from an emulator; crash-detection thresholds are not field-tuned.
-- 🌿 **[Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase)** ("Family Wallet"): a shared budgeting app for Turkish families (React Native, Expo, TypeScript, PocketBase) with server-side authorization, 764 tests recorded on 4 Nov 2026 and 400 HTTP checks recorded on 1 Nov. The 5 Nov 2026 backend deployment was verified; the 6 Nov local quick run has 304 tests and is not equivalent in scope to the older counts. In development, not in the stores, private source.
+<p align="right"><a href="#">Başa dön ↑</a></p>
 
-**In development:** [Veil](https://github.com/yigitbuyukeren/veil), a SimpleX-based Android messaging client with a Tor-only connection policy enforced in the app layer. Closed alpha is the target; release decision is **NO-GO**. No real-device verification or independent security audit. [Project and limitations](https://yigitbuyukeren.com/en/veil/).
-
-**Technical work**
-
-- 🧼 **[EXIF Cleaner](https://github.com/yigitbuyukeren/exif-temizleyici)**: byte-level metadata stripping for JPEG, PNG and WebP without re-encoding; dependency-free JavaScript, CLI, 38 tests. The hosted page is a demo.
-- 📝 **[Topnote](https://github.com/yigitbuyukeren/topnote)**: an always-on-top macOS sticky note in Swift, SwiftUI and AppKit, with a [downloadable .app](https://github.com/yigitbuyukeren/topnote/releases/latest).
-- 🔄 **[Tazele](https://github.com/yigitbuyukeren/tazele)**: a macOS menu-bar app (Swift, SwiftUI) that lists outdated Homebrew, App Store, npm, rustup, gem, pipx/uv, Oh My Zsh and Sparkle apps and updates the selected ones with a live log; it can install macOS updates too (ones needing a restart only after confirmation). 149 unit tests. An MVP.
-- 📺 **[TV+ 4K Box Guide](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)**: reversible, root-free ADB scripts for Turkcell's set-top box.
-
-**Open source:** [cleanyourtv#874](https://github.com/Gathin23/cleanyourtv/pull/874), [Capso#387](https://github.com/lzhgus/Capso/pull/387), [RemoveMacAI#113](https://github.com/omlahore/RemoveMacAI/pull/113) and [pysad#471](https://github.com/selimfirat/pysad/pull/471), all merged. **Certificates:** Cisco Networking Academy, Bilişim Academy and BTK Akademi course-completion certificates (listed above; not the full CCNA).
-
-</details>
-
-<sub>Görseller [yigitbuyukeren.com](https://yigitbuyukeren.com)'un kendi kartlarından üretilir: [`tools/render.sh`](tools/render.sh).</sub>
+<sub>Visuals use existing site and project art; the RideDeck banner comes from its repository. No new screenshots were generated.</sub>
