@@ -8,7 +8,7 @@
 <p align="center">
   <b>Android · Mobile · Backend</b> &nbsp;·&nbsp; Istanbul<br>
   I build the app, the server, and the tests that keep both honest.<br>
-  Currently: <b>RideDeck 0.6.0</b> — an open-source motorcycle dashboard.<br><br>
+  Currently: <b>RideDeck 0.6.1-beta.1</b> — an open-source motorcycle dashboard.<br><br>
   <a href="https://yigitbuyukeren.com/en/">Website</a> &nbsp;·&nbsp;
   <a href="https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf">CV</a> &nbsp;·&nbsp;
   <a href="mailto:mail@yigitbuyukeren.com">Email</a> &nbsp;·&nbsp;
@@ -28,18 +28,18 @@
   </picture>
 </a>
 
-Mount a phone on the handlebar and RideDeck replaces the phone UI with a CarPlay-style riding display: GPS speed, voice-guided OpenStreetMap navigation, music, calls, and an optional SOS/crash countdown. The controls are sized for gloves, and text entry is locked while moving.
+Mount a phone on the handlebar and RideDeck provides a motorcycle-focused riding display: GPS speed, voice-guided OpenStreetMap navigation, music, calls, and an optional SOS/crash countdown. The controls are sized for gloves, and text entry is locked while moving.
 
 Open source, no account, and no backend of its own. It is motorcycle-only by design.
 
 | | |
 |---|---|
-| **Release** | `v0.6.0` · signed APK · Apache 2.0 |
-| **Proof** | Latest CI (17 Nov): 742/742 JVM tests · static 16 KB alignment |
+| **Release** | `v0.6.1-beta.1` prerelease · signed APK · Apache 2.0 |
+| **Proof** | 831/831 debug + 831/831 release JVM tests · Android instrumentation: 203 passed, 1 skipped (passed separately) · static 16 KB alignment |
 | **Stack** | Kotlin · Jetpack Compose · MapLibre · OpenStreetMap · Valhalla |
 | **Limits** | Emulator screenshots; no real-device ride/SMS test. Routes, search and weather need a connection. SOS/crash thresholds are not field-tuned. |
 
-**[Download APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest)** · [Source](https://github.com/yigitbuyukeren/ridedeck) · [Project page](https://yigitbuyukeren.com/en/ridedeck/)
+**[Download beta APK](https://github.com/yigitbuyukeren/ridedeck/releases/download/v0.6.1-beta.1/RideDeck-0.6.1-beta.1.apk)** · [Source](https://github.com/yigitbuyukeren/ridedeck) · [Project page](https://yigitbuyukeren.com/en/ridedeck/)
 
 <sub>Verification history: [STATUS.md](https://github.com/yigitbuyukeren/ridedeck/blob/main/docs/STATUS.md) (TR).</sub>
 
@@ -124,7 +124,7 @@ Privacy-first Android messaging in closed-alpha development: a SimpleX-based cli
 ## Contact
 
 For work, collaboration or a technical question: **[mail@yigitbuyukeren.com](mailto:mail@yigitbuyukeren.com)**<br>
-[Website](https://yigitbuyukeren.com/en/) · [CV (EN)](https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf) · [Site source](https://github.com/yigitbuyukeren/yigitbuyukeren.github.io)
+[Website](https://yigitbuyukeren.com/en/) · [CV (EN)](https://yigitbuyukeren.com/en/cv/Yigit-Eren-Buyukeren-CV-EN.pdf)
 
 <details>
 <summary>Certificates and coursework</summary>
@@ -148,7 +148,7 @@ Course-completion certificates, not the full CCNA certification.
 
 Android, mobil ve sunucu sistemleri geliştiriyorum. Uygulamayı, arkasındaki sunucuyu ve ikisini de dürüst tutan testleri birlikte yazıyorum.
 
-**Ana proje: RideDeck.** Telefonu gidona takınca CarPlay tarzı sürüş paneline çeviren açık kaynak Android uygulaması. Yalnız motosiklet için: GPS hızı, OpenStreetMap ile sesli navigasyon, müzik, telefon ve isteğe bağlı SOS. Hesap yok; kendine ait sunucusu yok. Ekran görüntüleri emülatörden; gerçek cihazda sürüş/SMS testi yok. Rota, arama ve hava durumu bağlantı ister; SOS/kaza eşikleri sahada ayarlanmadı. [APK](https://github.com/yigitbuyukeren/ridedeck/releases/latest) · [Kaynak](https://github.com/yigitbuyukeren/ridedeck) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
+**Ana proje: RideDeck 0.6.1-beta.1 (beta).** Telefonu gidona takınca motosiklet kokpitine dönüştüren açık kaynak Android uygulaması. Yalnız motosiklet için: GPS hızı, OpenStreetMap ile sesli navigasyon, müzik, telefon ve isteğe bağlı SOS. Hesap yok; kendine ait sunucusu yok. Ekran görüntüleri emülatörden; gerçek cihazda sürüş/SMS testi yok. Rota, arama ve hava durumu bağlantı ister; SOS/kaza eşikleri sahada ayarlanmadı. [Beta APK](https://github.com/yigitbuyukeren/ridedeck/releases/download/v0.6.1-beta.1/RideDeck-0.6.1-beta.1.apk) · [Kaynak](https://github.com/yigitbuyukeren/ridedeck) · [Proje sayfası](https://yigitbuyukeren.com/ridedeck/)
 
 **Diğer projeler:** [Aile Cüzdanı](https://github.com/yigitbuyukeren/aile-cuzdani-showcase) (özel kaynak, geliştirmede) · [Veil](https://github.com/yigitbuyukeren/veil) (kapalı alfa geliştirmesi, NO-GO; mesaj ve dosyalarda Tor, isteğe bağlı aramalar istisna) · [EXIF Temizleyici](https://github.com/yigitbuyukeren/exif-temizleyici) · [Topnote](https://github.com/yigitbuyukeren/topnote) · [Tazele](https://github.com/yigitbuyukeren/tazele) · [TV+ 4K Box Rehberi](https://github.com/yigitbuyukeren/tvplus-4k-box-rehber)
 
