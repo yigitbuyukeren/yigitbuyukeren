@@ -1,4 +1,9 @@
-<a href="https://yigitbuyukeren.com/"><img src="assets/portfolio.jpg" width="100%" alt="Yiğit Eren Büyükeren — RideDeck’in navigasyon ekranı ve Aile Cüzdanı’nın özet, rapor ve birikim ekranları"></a>
+<a href="https://yigitbuyukeren.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.png">
+    <img src="assets/portfolio-light.png" width="100%" alt="Yiğit Eren Büyükeren — Bağımsız geliştirici. RideDeck (v0.7.0 kokpit ekranı), Aile Cüzdanı (özet ekranı) ve Veil (kapalı alfa, yalnız Tor) projelerini gösteren rota kartı.">
+  </picture>
+</a>
 
 # Yiğit Eren Büyükeren
 
