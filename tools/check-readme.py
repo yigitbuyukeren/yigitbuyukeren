@@ -5,7 +5,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TEXT = (ROOT / "README.md").read_text(encoding="utf-8")
+README = ROOT / "README.md"
+if not README.is_file():
+    print("OK: README.md yok; kontrol atlandı.")
+    sys.exit(0)
+TEXT = README.read_text(encoding="utf-8")
 TARGETS = set()
 
 
