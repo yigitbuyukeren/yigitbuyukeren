@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Check local links and image references in the profile README."""
+"""Check local links and image references in the profile README.
+
+README.md and assets/ were intentionally removed in ec08d87. An absent README
+is a valid, explicit state rather than a skipped failure; if a README is ever
+restored, its local links and image targets are checked again.
+"""
 import re
 import sys
 from pathlib import Path
@@ -7,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 if not README.is_file():
-    print("OK: README.md yok; kontrol atlandı.")
+    print("OK: README.md yok (ec08d87 ile kaldırıldı); doğrulanacak yerel hedef yok.")
     sys.exit(0)
 TEXT = README.read_text(encoding="utf-8")
 TARGETS = set()
@@ -36,4 +41,4 @@ if missing:
     for target in missing:
         print(f"  {target}")
     sys.exit(1)
-print(f"OK: {len(TARGETS)} yerel hedef doğrulandı.")
+print(f"OK: README.md içinde {len(TARGETS)} yerel hedef doğrulandı.")

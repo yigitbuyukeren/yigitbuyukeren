@@ -1,80 +1,149 @@
 <!doctype html>
-<!-- Proje README kapakları. Site klasöründe _gh/banners.html olarak sunulur; görseller _gh/img/ altına kopyalanır
-     (aile-icon.png, unfollow-icon.png, dg-*.jpg, kalpqr.png, site-*.png) ya da sitenin /assets/img/ klasöründen gelir.
-     ?p=aile|ride|tvplus|unfollow|dogum|kalpqr|basarim|exif|topnote|tazele|site&theme=light|dark, isteğe bağlı &h=640 (yükseklik) ve &flat=1 (köşesiz, repo paylaşım görseli için) -->
-<html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="/assets/site.css"><style>
-html,body{margin:0;background:var(--bg)}
+<!-- Bağımsız proje kapakları. Harici site CSS'i, görsel veya JS yüklemez; kendi kendine yeter.
+     Kullanım: ?p=aile|ride|veil|tvplus|unfollow|dogum|kalpqr|sohbet|basarim|exif|topnote|tazele|site
+     &theme=light|dark, isteğe bağlı &h=640 (yükseklik) ve &flat=1 (köşesiz, repo paylaşım görseli için).
+     Güncel vitrin: aile, ride, veil, site. Diğer anahtarlar ARŞİV olarak işaretlidir. -->
+<html lang="tr"><head><meta charset="utf-8"><title>Proje kapakları</title><style>
+:root{--bg:#E8E9E3;--ink:#151719;--ink-2:#3C403A;--muted:#565A53;--rule:#C3C6BD;--accent:#E8420E;--plate:#DDDFD7;--shadow:0 30px 70px -30px rgba(0,0,0,.55);--f-display:"National Park",Georgia,"Times New Roman",serif;--f-mono:"Geist Mono",ui-monospace,SFMono-Regular,Consolas,monospace;--f-text:Geist,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+:root[data-theme=dark]{--bg:#111214;--ink:#F1EDE3;--ink-2:#D8D4C9;--muted:#A7A399;--rule:#33343A;--accent:#FF5A1F;--plate:#1A1B1E;--shadow:0 30px 70px -30px rgba(0,0,0,.8)}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-text)}
+body{min-width:1280px}
 .flat .pb{border:0;border-radius:0}
 .pb{position:relative;width:1280px;height:var(--h,520px);border:1px solid var(--rule);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:560px 1fr;background:var(--bg)}
-.pb-text{padding:48px 0 44px 56px;display:flex;flex-direction:column;gap:18px;z-index:2}
-.pb-mark{display:flex;align-items:center;gap:10px;font:500 15px/1 var(--f-mono);color:var(--muted);letter-spacing:.02em}
-.pb-mark .mark-badge{width:30px;height:30px;border-radius:8px;font-size:12px}
+.pb-text{padding:48px 20px 44px 56px;display:flex;flex-direction:column;gap:18px;z-index:2}
+.pb-mark{display:flex;align-items:center;gap:10px;font:500 15px/1 var(--f-mono);color:var(--muted);letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mark-badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:var(--ink);color:var(--bg);font:700 13px/1 var(--f-display);letter-spacing:-.04em;flex:none}
+.mark-badge i{font-style:normal;color:var(--accent)}
 .pb-name{display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin-top:auto}
-.pb-icon{width:72px;height:72px;border-radius:19px;flex:none;box-shadow:var(--shadow);display:grid;place-items:center;font-size:40px;overflow:hidden}
-.pb-icon img{width:100%;height:100%;object-fit:cover}
-.pb h1{font-size:var(--fs,68px);max-width:480px;line-height:.95;letter-spacing:-.045em;font-weight:680}
+.pb-icon{width:72px;height:72px;border-radius:19px;flex:none;box-shadow:var(--shadow);display:grid;place-items:center;font-size:40px;overflow:hidden;border:1px solid rgba(255,255,255,.14);color:#fff}
+.icon-mark{font:700 30px/1 var(--f-display);letter-spacing:-.06em}
+.pb h1{font-size:var(--fs,68px);max-width:480px;line-height:.95;letter-spacing:-.045em;font-weight:700;margin:0}
 .pb .tagline{font:600 25px/1.3 var(--f-display);letter-spacing:-.02em;color:var(--ink-2);margin:0;max-width:20ch}
 .pb .tagline em{font-style:normal;color:var(--accent)}
-.pb .tags li{font-size:14px;padding:8px 12px}
+.tags{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
+.tags li{font:500 14px/1 var(--f-mono);padding:8px 12px;border:1px solid var(--rule);border-radius:999px;color:var(--muted)}
+.pb-flag{position:absolute;top:22px;right:24px;z-index:3;padding:7px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.28);background:rgba(17,18,20,.78);color:#F1EDE3;font:600 10px var(--f-mono);letter-spacing:.1em;line-height:1}
 .pb-visual{position:relative;overflow:hidden;border-left:1px solid var(--rule)}
-.frame{position:absolute;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.12)}
+.frame{position:absolute;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.12);background:var(--plate)}
 .frame img{width:100%;display:block}
 .win-bar{height:30px;background:#E9E6DF;display:flex;align-items:center;gap:7px;padding:0 12px}
 .win-bar i{width:11px;height:11px;border-radius:50%;background:#D4CFC4}
 .win-bar i:nth-child(1){background:#F26B5E}.win-bar i:nth-child(2){background:#F5BE4F}.win-bar i:nth-child(3){background:#5FC454}
 .win-bar span{margin-left:10px;font:500 12px/1 var(--f-mono);color:#6B675B}
-:root[data-theme="dark"] .win-bar{background:#26241F}:root[data-theme="dark"] .win-bar span{color:#9A9585}
-.pb-visual .phones{position:absolute;inset:0;padding:0}
-.pb-visual .phone{width:200px}
-.tv{position:absolute;left:60px;top:70px;width:620px;border:12px solid #0B0B0C;border-radius:14px;box-shadow:0 30px 70px -20px rgba(0,0,0,.8)}
-.tv img{display:block;width:100%}
-.tv::after{content:"";position:absolute;left:50%;bottom:-40px;width:140px;height:28px;transform:translateX(-50%);background:#0B0B0C;border-radius:0 0 10px 10px}
-</style></head><body><script src="/_gh/tazele-panel.js"></script><script>
-var q=new URLSearchParams(location.search),p=q.get('p');
+:root[data-theme=dark] .win-bar{background:#26241F}:root[data-theme=dark] .win-bar span{color:#9A9585}
+.phones{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.phone{width:196px;height:392px;border-radius:30px;background:#F6F5EF;border:7px solid #111;box-shadow:0 30px 70px -30px rgba(0,0,0,.7);overflow:hidden;color:#1A1B1E;flex:none;position:relative}
+.phone:nth-child(1){transform:rotate(-6deg) translateX(18px)}
+.phone:nth-child(2){transform:translateY(-14px);z-index:2}
+.phone:nth-child(3){transform:rotate(6deg) translateX(-18px)}
+.phone-top{height:32px;display:flex;align-items:center;justify-content:center;font:600 11px var(--f-mono);border-bottom:1px solid rgba(0,0,0,.08);background:#EFEEE6}
+.phone-body{padding:16px 14px;display:grid;gap:10px}
+.phone-kicker{font:600 9px var(--f-mono);letter-spacing:.1em;color:#6B675B}
+.phone-big{font:700 26px/1 var(--f-display);letter-spacing:-.04em}
+.phone-bar{height:8px;border-radius:999px;background:#E1DFD5;overflow:hidden}
+.phone-bar i{display:block;height:100%;background:#2F6B4F;border-radius:inherit}
+.phone-row{display:flex;justify-content:space-between;font:500 10px var(--f-mono);color:#565A53;border-top:1px solid rgba(0,0,0,.08);padding-top:8px}
+.phone-row b{color:#1A1B1E}
+.dash{position:absolute;left:44px;right:44px;top:50%;transform:translateY(-50%);border-radius:22px;background:rgba(9,14,28,.82);border:1px solid rgba(255,255,255,.16);box-shadow:0 34px 70px -32px rgba(0,0,0,.85);padding:22px}
+.dash-top{display:flex;justify-content:space-between;align-items:center;font:600 11px var(--f-mono);letter-spacing:.08em;color:#9BB0D8}
+.dash-brand{font:700 18px var(--f-display);letter-spacing:-.02em;color:#fff}
+.dash-grid{display:grid;grid-template-columns:170px 1fr;gap:18px;margin-top:18px}
+.dash-speed{padding:14px 16px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.dash-speed b{display:block;font:700 76px/.8 var(--f-display);letter-spacing:-.07em;color:#fff}
+.dash-speed span{display:block;margin-top:14px;font:600 11px var(--f-mono);letter-spacing:.12em;color:#9BB0D8}
+.dash-nav{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.dash-arrow{font-size:38px;line-height:1;color:#FF8A5C}
+.dash-nav b{display:block;font:700 26px/1 var(--f-display);letter-spacing:-.03em;color:#fff}
+.dash-nav small{display:block;margin-top:7px;font:500 12px var(--f-mono);color:#9BB0D8}
+.dash-bottom{display:flex;gap:8px;margin-top:14px}
+.dash-bottom span{flex:1;text-align:center;padding:9px 6px;border-radius:10px;background:rgba(255,255,255,.05);font:500 11px var(--f-mono);color:#C9D4EA}
+.veil{position:absolute;inset:0;display:grid;place-items:center;padding:40px}
+.veil-card{width:540px;border-radius:22px;border:1px solid rgba(255,255,255,.16);background:rgba(9,10,14,.74);box-shadow:0 34px 70px -32px rgba(0,0,0,.9);padding:24px;display:grid;gap:16px}
+.veil-head{display:flex;align-items:center;gap:12px}
+.veil-orb{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:linear-gradient(135deg,#6A3DE8,#24104F);font-size:24px;flex:none}
+.veil-kicker{display:block;font:600 10px var(--f-mono);letter-spacing:.12em;color:#C2B3FF}
+.veil-title{display:block;margin-top:5px;font:700 23px/1 var(--f-display);letter-spacing:-.03em;color:#fff}
+.veil-status{margin-left:auto;padding:6px 9px;border-radius:999px;border:1px solid rgba(255,120,90,.4);background:rgba(255,90,31,.12);font:600 10px var(--f-mono);letter-spacing:.08em;color:#FFB4A8;white-space:nowrap}
+.veil-rows{display:grid;gap:8px}
+.veil-row{display:flex;justify-content:space-between;gap:16px;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.05);font:500 12px var(--f-mono);color:#C9C5BC}
+.veil-row b{color:#F1EDE3;text-align:right}
+.veil-foot{font:500 11px/1.5 var(--f-mono);color:#9C97A8}
+.archive{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:12px;text-align:center;padding:48px;color:currentColor}
+.archive-emoji{font-size:70px;line-height:1}
+.archive b{font:700 28px/1 var(--f-display);letter-spacing:-.03em}
+.archive small{font:500 12px/1.4 var(--f-mono);letter-spacing:.06em;opacity:.72}
+.badges{position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,140px);grid-auto-rows:128px;gap:14px;justify-content:center;align-content:center}
+.badge{border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 18px 40px -22px rgba(0,0,0,.5)}
+.badge span{font-size:44px;line-height:1}
+.badge b{font:600 14px/1.2 var(--f-display);text-align:center;padding:0 8px;color:var(--ink-2)}
+.screen{position:absolute;left:56px;top:60px;width:600px;border-radius:16px;overflow:hidden;background:var(--bg);border:1px solid var(--rule);box-shadow:0 30px 70px -30px rgba(0,0,0,.55)}
+.screen-body{padding:20px 24px;display:grid;gap:4px}
+.screen-kicker{font:600 10px var(--f-mono);letter-spacing:.1em;color:var(--muted);margin-bottom:6px}
+.route-stop{display:flex;gap:12px;align-items:baseline;border-top:1px solid var(--rule);padding:9px 0 0;font:600 11px var(--f-mono);color:var(--muted)}
+.route-stop b{font:700 20px var(--f-display);color:var(--ink);letter-spacing:-.02em}
+.unknown{padding:40px;font:600 16px var(--f-mono);color:var(--ink)}
+</style></head><body><script>
+var q=new URLSearchParams(location.search),p=q.get('p')||'ride';
 document.documentElement.dataset.theme=q.get('theme')||'light';
 if(q.get('h'))document.documentElement.style.setProperty('--h',q.get('h')+'px');
 if(q.get('flat'))document.documentElement.classList.add('flat');
 var dark=document.documentElement.dataset.theme==='dark';
+
+function phone(kicker,big,rows,barWidth){
+  var rowsHtml=rows.map(function(r){return '<div class="phone-row"><span>'+r[0]+'</span><b>'+r[1]+'</b></div>'}).join('');
+  return '<div class="phone"><div class="phone-top">Aile Cüzdanı</div><div class="phone-body"><span class="phone-kicker">'+kicker+'</span><b class="phone-big">'+big+'</b><div class="phone-bar"><i style="width:'+barWidth+'%"></i></div>'+rowsHtml+'</div></div>';
+}
+function archive(icon){
+  return '<div class="archive"><span class="archive-emoji">'+icon+'</span><b>Arşiv</b><small>Eski proje kapağı</small></div>';
+}
+
 var P={
- aile:{url:'yigitbuyukeren.com/aile-cuzdani',icon:'<img src="/_gh/img/aile-icon.png">',name:'Aile Cüzdanı',tag:'Türk aileleri için <em>ücretsiz</em>, ortak bütçe uygulaması.',tags:['React Native','PocketBase','Vitest · HTTP testleri','Geliştirmede'],
-   bg:dark?'#1D251F':'#E5ECE2',visual:'<div class="phones"><div class="phone"><img src="/assets/img/02-raporlar.webp"></div><div class="phone"><img src="/assets/img/01-ozet.webp"></div><div class="phone"><img src="/assets/img/03-hedefler.webp"></div></div>'},
- ride:{url:'yigitbuyukeren.com/ridedeck',icon:'<img src="/assets/img/ridedeck-logo.webp">',name:'RideDeck',tag:'Telefonunu araca tak, <em>CarPlay tarzı</em> sürüş paneline çevir.',tags:['Kotlin','Jetpack Compose','OpenStreetMap','Apache 2.0'],
-   bg:'radial-gradient(120% 90% at 70% 0%,#1A2A55 0%,#0A1020 60%)',visual:'<div class="frame" style="left:50px;top:50%;transform:translateY(-50%);width:760px"><img src="/assets/img/rd-navigation.webp"></div>'},
- tvplus:{url:'github.com/yigitbuyukeren/tvplus-4k-box-rehber',icon:'📺',iconbg:'#2A0A0A',name:'TV+ 4K Box Rehberi',tag:'Turkcell TV+ kutusunu <em>root\'suz</em> temizle, hızlandır, geri al.',tags:['ADB','Shell','Geri alınabilir','Boş RAM ×2'],
-   bg:'radial-gradient(110% 100% at 40% 30%,#6A0E0E 0%,#2A0606 55%,#120303 100%)',visual:'<div class="tv"><img src="/assets/img/w-tvplus.webp"></div>'},
- unfollow:{url:'github.com/yigitbuyukeren/unfollow-radar',icon:'<img src="/_gh/img/unfollow-icon.png">',name:'Unfollow Radar',tag:'Instagram\'da seni <em>geri takip etmeyenleri</em> bul.',tags:['Konsola yapıştır','Kurulum yok','%100 yerel','MIT'],
-   bg:'linear-gradient(135deg,#7B5CFA 0%,#C25BC8 55%,#F0679A 100%)',visual:'<div class="frame" style="left:56px;top:56px;width:600px"><div class="win-bar"><i></i><i></i><i></i><span>instagram.com</span></div><img src="/assets/img/w-unfollow-tr.webp"></div>'},
- dogum:{url:'yigitbuyukeren.com/dogum-gunu',icon:'🎂',iconbg:'#2A1A4A',name:'Doğum Günü Sürprizi',tag:'Sevdiğin birine <em>sekiz sahnelik</em> interaktif bir sürpriz.',tags:['Tek HTML','Kurulum yok','Web Audio','MIT'],
-   bg:'radial-gradient(90% 120% at 50% 110%,#5B2A86 0%,#1B1238 55%,#0C0A1C 100%)',visual:'<div class="phones"><div class="phone"><img src="/_gh/img/dg-0.jpg"></div><div class="phone"><img src="/_gh/img/dg-1.jpg"></div><div class="phone"><img src="/_gh/img/dg-2.jpg"></div></div>'},
- kalpqr:{url:'github.com/yigitbuyukeren/kalp-qr',icon:'💗',iconbg:'#6B1A3A',name:'Kalp QR',tag:'Her adresi <em>kalp şeklinde</em>, telefonla okunan bir QR koda çevir.',tags:['Python','Tek dosya','Hata düzeltme H','MIT'],
-   bg:'radial-gradient(90% 120% at 50% 110%,#E8749D 0%,#FFD3E3 55%,#FFF6FA 100%)',visual:'<div class="frame" style="left:50%;top:50%;transform:translate(-50%,-50%);width:430px;border:0;background:transparent;box-shadow:none"><img src="/_gh/img/kalpqr.png"></div>'},
- sohbet:{url:'github.com/yigitbuyukeren/sohbet-ozeti',icon:'💬',iconbg:'#0F3D2A',name:'Sohbet Özeti',tag:'WhatsApp sohbetini <em>tarayıcında</em> analiz et, hiçbir şey gönderilmez.',tags:['JavaScript','Bağımlılıksız','%100 yerel','MIT'],
-   bg:dark?'radial-gradient(110% 100% at 60% 20%,#1C4A36 0%,#0E1F17 60%,#0A120E 100%)':'radial-gradient(110% 100% at 60% 20%,#B9E6CF 0%,#DDF2E7 55%,#F2FAF5 100%)',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>sohbet-ozeti</span></div><img src="/_gh/img/sohbet-'+(dark?'dark':'light')+'.png"></div>'},
- basarim:{url:'github.com/yigitbuyukeren/github-basarimlari-rehber',icon:'🏆',iconbg:'#3A2A06',name:'GitHub Başarımları Rehberi',tag:'Tüm başarımlar ve rozetler, <em>nasıl kazanılır</em>.',tags:['Seviye eşikleri','Adım adım','Kapananlar','MIT'],
+ aile:{url:'yigitbuyukeren.com/aile-cuzdani',icon:'<span class="icon-mark">AC</span>',iconbg:'#2F6B4F',name:'Aile Cüzdanı',tag:'Türk aileleri için <em>ücretsiz</em>, ortak bütçe uygulaması.',tags:['React Native','Expo','PocketBase','Geliştirmede'],
+   bg:dark?'#1D251F':'#E5ECE2',visual:'<div class="phones">'+phone('BU AY KALAN','₺12.480',[['Gelir','₺48.000'],['Gider','₺35.520']],62)+phone('HEDEF','₺250 B',[['Birikim','% 38'],['Kalan','₺155 B']],38)+phone('FATURA','3 / 5',[['Ödendi','₺4.120'],['Bekleyen','₺2.340']],60)+'</div>'},
+ ride:{url:'yigitbuyukeren.com/ridedeck',icon:'<span class="icon-mark">R</span>',iconbg:'#1A2A55',name:'RideDeck',tag:'Telefonunu araca tak, <em>bağımsız</em> araç içi sürüş paneline çevir.',tags:['Kotlin','Jetpack Compose','MapLibre','Apache 2.0'],
+   bg:'radial-gradient(120% 90% at 70% 0%,#1A2A55 0%,#0A1020 60%)',visualInk:'#F1EDE3',
+   visual:'<div class="dash"><div class="dash-top"><span class="dash-brand">RideDeck</span><span>GPS · CİHAZDA</span></div><div class="dash-grid"><div class="dash-speed"><b>0</b><span>KM/S</span></div><div class="dash-nav"><span class="dash-arrow">➜</span><div><b>Kadıköy</b><small>12 km · 18 dk</small></div></div></div><div class="dash-bottom"><span>🧭 Navigasyon</span><span>🎵 Müzik</span><span>📞 Aramalar</span></div></div>'},
+ veil:{url:'yigitbuyukeren.com/veil',icon:'<span class="icon-mark">V</span>',iconbg:'#2A1A4A',name:'Veil',tag:'SimpleX üzerine kurulu, hesapsız Android mesajlaşma; <em>kapalı alfa</em>.',tags:['Kotlin','SimpleX Core','Tor (Orbot)','AGPLv3'],
+   bg:'radial-gradient(120% 90% at 70% 0%,#2B1655 0%,#0A0714 60%)',visualInk:'#F1EDE3',
+   visual:'<div class="veil"><div class="veil-card"><div class="veil-head"><span class="veil-orb">🧅</span><div><span class="veil-kicker">VEIL · KAPALI ALFA</span><b class="veil-title">Fail-closed Tor kapısı</b></div><span class="veil-status">NO-GO</span></div><div class="veil-rows"><div class="veil-row"><span>Mesajlar ve dosyalar</span><b>Tor .onion</b></div><div class="veil-row"><span>Aramalar</span><b>Varsayılan kapalı</b></div><div class="veil-row"><span>Ağ ayarları</span><b>Kilitli</b></div></div><div class="veil-foot">Hesap yok · SimpleX protokolü · gerçek cihaz doğrulaması yok</div></div></div>'},
+ tvplus:{url:'github.com/yigitbuyukeren/tvplus-4k-box-rehber',icon:'📺',iconbg:'#2A0A0A',deprecated:true,name:'TV+ 4K Box Rehberi',tag:'Turkcell TV+ kutusunu <em>root\'suz</em> temizle, hızlandır, geri al.',tags:['ADB','Shell','Geri alınabilir','Boş RAM ×2'],
+   bg:'radial-gradient(110% 100% at 40% 30%,#6A0E0E 0%,#2A0606 55%,#120303 100%)',visualInk:'#F1EDE3',visual:archive('📺')},
+ unfollow:{url:'github.com/yigitbuyukeren/unfollow-radar',icon:'👀',iconbg:'#3A235E',deprecated:true,name:'Unfollow Radar',tag:'Instagram\'da seni <em>geri takip etmeyenleri</em> bul.',tags:['Konsola yapıştır','Kurulum yok','%100 yerel','MIT'],
+   bg:'linear-gradient(135deg,#7B5CFA 0%,#C25BC8 55%,#F0679A 100%)',visualInk:'#fff',visual:archive('👀')},
+ dogum:{url:'yigitbuyukeren.com/dogum-gunu',icon:'🎂',iconbg:'#2A1A4A',deprecated:true,name:'Doğum Günü Sürprizi',tag:'Sevdiğin birine <em>sekiz sahnelik</em> interaktif bir sürpriz.',tags:['Tek HTML','Kurulum yok','Web Audio','MIT'],
+   bg:'radial-gradient(90% 120% at 50% 110%,#5B2A86 0%,#1B1238 55%,#0C0A1C 100%)',visualInk:'#F1EDE3',visual:archive('🎂')},
+ kalpqr:{url:'github.com/yigitbuyukeren/kalp-qr',icon:'💗',iconbg:'#6B1A3A',deprecated:true,name:'Kalp QR',tag:'Her adresi <em>kalp şeklinde</em>, telefonla okunan bir QR koda çevir.',tags:['Python','Tek dosya','Hata düzeltme H','MIT'],
+   bg:'radial-gradient(90% 120% at 50% 110%,#E8749D 0%,#FFD3E3 55%,#FFF6FA 100%)',visual:archive('💗')},
+ sohbet:{url:'github.com/yigitbuyukeren/sohbet-ozeti',icon:'💬',iconbg:'#0F3D2A',deprecated:true,name:'Sohbet Özeti',tag:'WhatsApp sohbetini <em>tarayıcında</em> analiz et, hiçbir şey gönderilmez.',tags:['JavaScript','Bağımlılıksız','%100 yerel','MIT'],
+   bg:dark?'radial-gradient(110% 100% at 60% 20%,#1C4A36 0%,#0E1F17 60%,#0A120E 100%)':'radial-gradient(110% 100% at 60% 20%,#B9E6CF 0%,#DDF2E7 55%,#F2FAF5 100%)',visualInk:dark?'#F1EDE3':'#123D2B',visual:archive('💬')},
+ basarim:{url:'github.com/yigitbuyukeren/github-basarimlari-rehber',icon:'🏆',iconbg:'#3A2A06',deprecated:true,name:'GitHub Başarımları Rehberi',tag:'Tüm başarımlar ve rozetler, <em>nasıl kazanılır</em>.',tags:['Seviye eşikleri','Adım adım','Kapananlar','MIT'],
    bg:dark?'radial-gradient(110% 100% at 60% 20%,#5A4310 0%,#241A07 60%,#120D04 100%)':'radial-gradient(110% 100% at 60% 20%,#F6DE9A 0%,#FBEFC9 55%,#FFF9E8 100%)',
-   visual:'<div style="position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,140px);grid-auto-rows:128px;gap:14px;justify-content:center;align-content:center">'+[['🦈','Pull Shark'],['🤠','YOLO'],['⚡','Quickdraw'],['👥','Pair Extraordinaire'],['⭐','Starstruck'],['🧠','Galaxy Brain'],['💖','Public Sponsor'],['🔒','Security Hunter'],['🏅','Campus Expert']].map(function(b){return '<div style="border-radius:22px;background:'+(dark?'rgba(255,255,255,.08)':'rgba(255,255,255,.7)')+';border:1px solid '+(dark?'rgba(255,255,255,.14)':'rgba(0,0,0,.08)')+';display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 18px 40px -22px rgba(0,0,0,.5)"><span style="font-size:44px;line-height:1">'+b[0]+'</span><span style="font:600 14px/1.2 var(--f-display);text-align:center;color:var(--ink-2);padding:0 8px">'+b[1]+'</span></div>'}).join('')+'</div>'},
- exif:{url:'github.com/yigitbuyukeren/exif-temizleyici',icon:'🧼',iconbg:'#0E2A66',name:'EXIF Temizleyici',tag:'Fotoğrafındaki <em>konumu ve cihaz bilgisini</em> paylaşmadan önce sil.',tags:['Tarayıcıda','Kalite kaybı yok','Bağımlılıksız','MIT'],
+   visual:'<div class="badges">'+[['🦈','Pull Shark'],['🤠','YOLO'],['⚡','Quickdraw'],['👥','Pair Extraordinaire'],['⭐','Starstruck'],['🧠','Galaxy Brain'],['💖','Public Sponsor'],['🔒','Security Hunter'],['🏅','Campus Expert']].map(function(b){return '<div class="badge" style="background:'+(dark?'rgba(255,255,255,.08)':'rgba(255,255,255,.7)')+';border:1px solid '+(dark?'rgba(255,255,255,.14)':'rgba(0,0,0,.08)')+'"><span>'+b[0]+'</span><b>'+b[1]+'</b></div>'}).join('')+'</div>'},
+ exif:{url:'github.com/yigitbuyukeren/exif-temizleyici',icon:'🧼',iconbg:'#0E2A66',deprecated:true,name:'EXIF Temizleyici',tag:'Fotoğrafındaki <em>konumu ve cihaz bilgisini</em> paylaşmadan önce sil.',tags:['Tarayıcıda','Kalite kaybı yok','Bağımlılıksız','MIT'],
    bg:dark?'radial-gradient(110% 100% at 60% 20%,#173A8A 0%,#0B1630 60%,#070C1A 100%)':'radial-gradient(110% 100% at 60% 20%,#B7CDFF 0%,#DCE7FF 55%,#F4F7FF 100%)',
    visual:(function(){var c=dark?'rgba(255,255,255,.08)':'rgba(255,255,255,.85)',b=dark?'rgba(255,255,255,.14)':'rgba(0,0,0,.08)',r=function(i,t,v,x){return '<div style="display:flex;gap:10px;align-items:baseline;padding:9px 12px;border-radius:12px;background:'+(x?'rgba(194,65,12,.14)':'rgba(120,130,160,.12)')+'"><span style="font-size:20px">'+i+'</span><b style="font:600 15px var(--f-display);color:var(--ink)">'+t+'</b><span style="font:500 12.5px var(--f-mono);color:var(--muted);margin-left:auto">'+v+'</span></div>'};
      return '<div style="position:absolute;left:44px;top:50%;transform:translateY(-50%);width:330px;padding:16px;border-radius:20px;background:'+c+';border:1px solid '+b+';box-shadow:0 24px 50px -26px rgba(0,0,0,.5);display:grid;gap:8px"><div style="font:600 12px var(--f-mono);letter-spacing:.08em;color:var(--muted)">ÖNCE · foto.jpg</div>'+r('📍','Konum','41.0256, 28.9741',1)+r('📷','Cihaz','Galaxy S24')+r('🕒','Zaman','2026-05-14')+r('🔢','Seri no','DEMO-0001',1)+r('🏷️','XMP','var')+'</div>'+
             '<div style="position:absolute;left:392px;top:50%;transform:translateY(-50%);font-size:34px;color:var(--accent)">➜</div>'+
             '<div style="position:absolute;right:44px;top:50%;transform:translateY(-50%);width:230px;padding:22px 18px;border-radius:20px;background:'+c+';border:1px solid '+b+';box-shadow:0 24px 50px -26px rgba(0,0,0,.5);display:grid;gap:10px;text-align:center"><div style="font:600 12px var(--f-mono);letter-spacing:.08em;color:var(--muted)">SONRA · foto-temiz.jpg</div><div style="font-size:54px;line-height:1">🧼</div><b style="font:650 20px var(--f-display);color:var(--ink)">Temiz</b><span style="font:500 13px var(--f-mono);color:var(--muted)">pikseller birebir aynı</span></div>'})()},
- topnote:{url:'github.com/yigitbuyukeren/topnote',icon:'📝',iconbg:'#5A4310',name:'Topnote',tag:'Mac için <em>her zaman en üstte</em> duran küçük not kağıdı.',tags:['macOS','Swift','Bağımlılıksız','MIT'],
+ topnote:{url:'github.com/yigitbuyukeren/topnote',icon:'📝',iconbg:'#5A4310',deprecated:true,name:'Topnote',tag:'Mac için <em>her zaman en üstte</em> duran küçük not kağıdı.',tags:['macOS','Swift','Bağımlılıksız','MIT'],
    bg:dark?'radial-gradient(110% 100% at 60% 20%,#5A4310 0%,#241A07 60%,#120D04 100%)':'radial-gradient(110% 100% at 60% 20%,#F6DE9A 0%,#FBEFC9 55%,#FFF9E8 100%)',
    visual:(function(){var win=function(l,t,w,h,rot,tx){return '<div style="position:absolute;left:'+l+'px;top:'+t+'px;width:'+w+'px;height:'+h+'px;transform:rotate('+rot+'deg);border-radius:14px;background:'+(dark?'rgba(255,255,255,.07)':'rgba(255,255,255,.75)')+';border:1px solid '+(dark?'rgba(255,255,255,.14)':'rgba(0,0,0,.08)')+';box-shadow:0 24px 50px -26px rgba(0,0,0,.5);overflow:hidden"><div style="height:26px;background:'+(dark?'rgba(255,255,255,.08)':'rgba(0,0,0,.05)')+'"></div><div style="padding:12px;font:500 12px var(--f-mono);color:var(--muted)">'+tx+'</div></div>'};
      return win(30,70,380,250,-3,'Başka bir pencere')+win(110,230,360,230,2,'Tam ekran uygulama')+'<div style="position:absolute;left:230px;top:96px;width:240px;height:220px;transform:rotate(1.5deg);border-radius:12px;background:#FFED8C;box-shadow:0 34px 60px -24px rgba(0,0,0,.55);overflow:hidden"><div style="height:26px;background:rgba(0,0,0,.06);display:flex;align-items:center;padding:0 9px;font-size:12px">📌</div><div style="padding:12px 14px;font:500 16px/1.45 var(--f-display);color:#222">süt al<br>8\'de toplantı<br>Ayşe\'yi ara<span style="display:inline-block;width:2px;height:17px;background:#222;margin-left:2px;vertical-align:-3px"></span></div></div>'})()},
- tazele:{url:'github.com/yigitbuyukeren/tazele',icon:'<img src="/_gh/img/tazele-icon.png">',name:'Tazele',tag:'Mac\'teki <em>her şeyi tek yerden</em> güncelleyen menü çubuğu uygulaması.',tags:['macOS','Swift','Bağımlılıksız','MIT'],
-   bg:dark?'radial-gradient(110% 100% at 60% 20%,#0E4D45 0%,#07241F 60%,#04120F 100%)':'radial-gradient(110% 100% at 60% 20%,#A9E3D3 0%,#D3F1E6 55%,#EEFAF5 100%)',
-   visual:'<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale('+(q.get('s')||'.7')+');transform-origin:center;box-shadow:0 34px 60px -24px rgba(0,0,0,.55);border-radius:14px">'+tazelePanel(dark)+'</div>'},
+ tazele:{url:'github.com/yigitbuyukeren/tazele',icon:'🔄',iconbg:'#0E4D45',deprecated:true,name:'Tazele',tag:'Mac\'teki <em>her şeyi tek yerden</em> güncelleyen menü çubuğu uygulaması.',tags:['macOS','Swift','Bağımlılıksız','MIT'],
+   bg:dark?'radial-gradient(110% 100% at 60% 20%,#0E4D45 0%,#07241F 60%,#04120F 100%)':'radial-gradient(110% 100% at 60% 20%,#A9E3D3 0%,#D3F1E6 55%,#EEFAF5 100%)',visualInk:dark?'#F1EDE3':'#0B3B32',visual:archive('🔄')},
  site:{url:'yigitbuyukeren.com',icon:'<span class="mark-badge" style="width:72px;height:72px;border-radius:19px;font-size:28px">yb<i>.</i></span>',name:'yigitbuyukeren.com',tag:'Kişisel sitem: <em>framework\'süz</em> HTML ve CSS, kendi sunucumda.',tags:['HTML','CSS','Caddy','TR · EN'],
-   bg:dark?'#1A1915':'#E7E2D6',visual:'<div class="frame" style="left:56px;top:60px;width:760px"><div class="win-bar"><i></i><i></i><i></i><span>yigitbuyukeren.com</span></div><img src="/_gh/img/site-'+(dark?'dark':'light')+'.png"></div>'}
+   bg:dark?'#1A1915':'#E7E2D6',visual:'<div class="screen"><div class="win-bar"><i></i><i></i><i></i><span>yigitbuyukeren.com</span></div><div class="screen-body"><div class="screen-kicker">MENZİL · ROTA</div><div class="route-stop"><b>01</b><span>RideDeck</span></div><div class="route-stop"><b>02</b><span>Aile Cüzdanı</span></div><div class="route-stop"><b>03</b><span>Veil</span></div></div></div>'}
 }[p==='tazele-shot'?'tazele':p];
-if(p==='tazele-shot'){document.body.innerHTML='<div style="position:relative;width:960px;height:540px;overflow:hidden;background:#EEF0F4"><div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale('+(q.get('s')||'.72')+');box-shadow:0 30px 60px -24px rgba(0,0,0,.45);border-radius:14px">'+tazelePanel(false)+'</div></div>';throw 0}
+
+if(!P){document.body.innerHTML='<div class="unknown">Bilinmeyen kapak: '+p.replace(/[<>&"]/g,'')+'</div>';throw 0}
 var tags=P.tags.map(function(t){return '<li>'+t+'</li>'}).join('');
-document.body.innerHTML='<div class="pb"><div class="pb-text"><div class="pb-mark"><span class="mark-badge">yb<i>.</i></span>'+P.url+'</div>'+
- '<div class="pb-name"><div class="pb-icon" style="background:'+(P.iconbg||'transparent')+'">'+P.icon+'</div><h1>'+P.name+'</h1></div>'+
- '<p class="tagline">'+P.tag+'</p><ul class="tags">'+tags+'</ul></div>'+
- '<div class="pb-visual" style="background:'+P.bg+'">'+P.visual+'</div></div>';
+var flag=P.deprecated?'<span class="pb-flag" title="Güncel site vitrininde kullanılmıyor">ARŞİV</span>':'';
+document.body.innerHTML='<div class="pb">'+flag+'<div class="pb-text"><div class="pb-mark"><span class="mark-badge">yb<i>.</i></span>'+P.url+'</div>'+
+  '<div class="pb-name"><div class="pb-icon" style="background:'+(P.iconbg||'transparent')+'">'+P.icon+'</div><h1>'+P.name+'</h1></div>'+
+  '<p class="tagline">'+P.tag+'</p><ul class="tags">'+tags+'</ul></div>'+
+  '<div class="pb-visual" style="background:'+P.bg+';color:'+(P.visualInk||'var(--ink)')+'">'+P.visual+'</div></div>';
+document.title=P.name+' · kapak';
 if(p==='basarim')document.querySelector('.pb-mark').style.fontSize='12px';
 if(p==='site'){document.querySelector('.pb-icon').style.boxShadow='none';document.querySelector('.pb h1').style.setProperty('--fs','50px')}
 </script></body></html>

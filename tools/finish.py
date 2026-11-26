@@ -1,4 +1,9 @@
-"""Ham PNG'lerin köşelerini yuvarlar, GitHub'ın açık/koyu arka planına oturtur ve assets/ altına JPEG yazar."""
+"""ARŞİV / DEPRECATED: tools/render.sh ile kullanılan eski çıktı hattı.
+
+Ham PNG'lerin köşelerini yuvarlar, GitHub'ın açık/koyu arka planına oturtur ve verilen
+hedef dizine JPEG yazar. Profil deposundaki assets/ ec08d87 ile kaldırıldı; yeni çıktı
+üretmek için kullanılmamalıdır.
+"""
 import os
 import sys
 
